@@ -1,0 +1,27 @@
+# Local config files (contain SSH keys, local paths)
+github-remote-*.txt
+setup-*.sh
+push-to-github.sh
+deploy-to-netlify.sh
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+.cache/
+
+# Security audit (contains internal info)
+SECURITY_AUDIT.md
