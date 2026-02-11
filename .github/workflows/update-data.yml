@@ -1,0 +1,63 @@
+name: Update Dashboard Data
+
+on:
+  # Run weekly after research cron job (Mondays at 9:30 AM MST = 16:30 UTC)
+  schedule:
+    - cron: '30 16 * * 1'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+      
+      - name: Check for data updates
+        id: check
+        run: |
+          # Check if data files have been modified by external process
+          # This assumes the cron job on clayton-ai updates the files
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check.outputs.changes == 'true'
+        run: |
+          git add data/
+          git add images/
+          git commit -m "🎁 Weekly data update - $(date +%Y-%m-%d)"
+          git push
+          echo "✅ Data committed and pushed"
+      
+      - name: No changes
+        if: steps.check.outputs.changes == 'false'
+        run: |
+          echo "No data changes to commit"
+
+  deploy-github-pages:
+    needs: update-data
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
