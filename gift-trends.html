@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎁 Gift Genie Trends Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            /* Gift Genie Brand Colors */
+            --primary: #8B5CF6;
+            --primary-dark: #7C3AED;
+            --secondary: #F472B6;
+            --accent: #FBBF24;
+            --bg: #FDF4FF;
+            --card-bg: #ffffff;
+            --text: #1F2937;
+            --text-light: #6B7280;
+            --border: #E5E7EB;
+            --success: #10B981;
+            --tech: #3B82F6;
+            --fashion: #EC4899;
+            --sports: #F59E0B;
+            --under50: #10B981;
+            --new: #8B5CF6;
+            --gradient-start: #8B5CF6;
+            --gradient-end: #EC4899;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+            color: white;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .header-meta {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .week-selector {
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .week-selector label {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .week-selector select {
+            padding: 0.6rem 1rem;
+            border-radius: 0.5rem;
+            border: 2px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.95);
+            color: var(--text);
+            font-size: 0.95rem;
+            cursor: pointer;
+            min-width: 280px;
+        }
+
+        .week-selector select:hover {
+            background: white;
+            border-color: white;
+        }
+
+        /* Tabs */
+        .tabs-container {
+            max-width: 1400px;
+            margin: -2rem auto 2rem;
+            padding: 0 1.5rem;
+        }
+
+        .tabs {
+            display: flex;
+            background: var(--card-bg);
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            flex: 1;
+            min-width: 150px;
+            padding: 1.25rem 1.5rem;
+            background: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-light);
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .tab:hover {
+            background: #f8fafc;
+            color: var(--text);
+        }
+
+        .tab.active {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+        }
+
+        .tab-icon {
+            font-size: 1.25rem;
+        }
+
+        /* Controls */
+        .controls {
+            max-width: 1400px;
+            margin: 0 auto 2rem;
+            padding: 0 1.5rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.5rem;
+            border: 2px solid var(--border);
+            border-radius: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .search-box::before {
+            content: "🔍";
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .export-btn {
+            padding: 0.75rem 1.5rem;
+            background: var(--success);
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        /* Stats */
+        .stats {
+            max-width: 1400px;
+            margin: 0 auto 2rem;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Content */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1.5rem 2rem;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .report-insight {
+            background: linear-gradient(135deg, #eff6ff 0%, #eef2ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            border-radius: 0 1rem 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .report-insight h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Gift Grid */
+        .gifts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gift-card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gift-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .gift-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .gift-rank {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2rem;
+            height: 2rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .gift-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .gift-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            font-size: 0.875rem;
+            align-items: center;
+        }
+
+        .gift-category {
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        }
+
+        .gift-category.tech { background: #dbeafe; color: var(--tech); }
+        .gift-category.fashion { background: #fce7f3; color: var(--fashion); }
+        .gift-category.sports { background: #ffedd5; color: var(--sports); }
+        .gift-category.home { background: #d1fae5; color: #059669; }
+        .gift-category.beauty { background: #fce7f3; color: var(--fashion); }
+
+        .gift-price {
+            font-weight: 700;
+            color: var(--success);
+            font-size: 1.1rem;
+        }
+
+        .gift-body {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .gift-description {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .gift-trending {
+            background: #f0fdf4;
+            border-left: 4px solid var(--success);
+            padding: 1rem;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .gift-trending h4 {
+            font-size: 0.875rem;
+            color: var(--success);
+            margin-bottom: 0.5rem;
+        }
+
+        .gift-quotes {
+            background: #eff6ff;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+
+        .gift-quotes h4 {
+            font-size: 0.875rem;
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .quote {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 0.875rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .quote:last-child { border-bottom: none; }
+
+        .gift-footer {
+            padding: 1rem 1.5rem;
+            background: #f8fafc;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.875rem;
+        }
+
+        .gift-recipient {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .recipient-tag {
+            padding: 0.25rem 0.5rem;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+        }
+
+        .gift-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.4rem 0.8rem;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+            display: inline-block;
+            margin-left: 0.5rem;
+        }
+
+        .gift-link.amazon {
+            background: #ff9900;
+            color: white;
+        }
+
+        .gift-link.amazon:hover {
+            background: #e68a00;
+        }
+
+        .gift-link.brand {
+            background: var(--primary);
+            color: white;
+        }
+
+        .gift-link.brand:hover {
+            background: var(--primary-dark);
+        }
+
+        .gift-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .gift-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+            display: block;
+        }
+
+        .gift-image-error {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+            border-radius: 0.5rem;
+            color: var(--text-light);
+            font-size: 3rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-light);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 4rem;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.75rem; }
+            .tabs { flex-direction: column; }
+            .gifts-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>🎁 Gift Genie Trends Dashboard</h1>
+            <p>Weekly trending gift intelligence across all categories</p>
+            <div class="header-meta">
+                <span>📅 <span id="current-date">February 10, 2026</span></span>
+                <span>🎁 <span id="total-gifts">60</span> gifts across 6 reports</span>
+                <span>🔄 Last updated: <span id="last-updated">Just now</span></span>
+            </div>
+            <div class="week-selector">
+                <label for="week-select">📊 View Week:</label>
+                <select id="week-select">
+                    <option value="latest">Current Week (Feb 10-16, 2026)</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab active" data-tab="overall">
+                <span class="tab-icon">🌟</span>
+                Overall
+            </button>
+            <button class="tab" data-tab="tech">
+                <span class="tab-icon">💻</span>
+                Tech
+            </button>
+            <button class="tab" data-tab="fashion">
+                <span class="tab-icon">👗</span>
+                Fashion
+            </button>
+            <button class="tab" data-tab="sports">
+                <span class="tab-icon">⚽</span>
+                Sports
+            </button>
+            <button class="tab" data-tab="under50">
+                <span class="tab-icon">💰</span>
+                Under $50
+            </button>
+            <button class="tab" data-tab="new">
+                <span class="tab-icon">✨</span>
+                New
+            </button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search gifts...">
+        </div>
+        <button class="export-btn" onclick="exportToCSV()">📥 Export CSV</button>
+    </div>
+
+    <div class="stats" id="stats-container">
+        <div class="stat-card">
+            <div class="stat-value" id="stat-total">50</div>
+            <div class="stat-label">Total Gifts</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="stat-categories">6</div>
+            <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="stat-high">0</div>
+            <div class="stat-label">High Relevance</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Overall Tab -->
+        <div id="overall" class="tab-content active">
+            <div class="report-insight" id="overall-insight">
+                <h3>💡 This Week's Key Insight</h3>
+                <p id="overall-insight-text">Loading insight...</p>
+            </div>
+            <div class="gifts-grid" id="overall-grid">
+                <div class="loading"><div class="spinner"></div><p>Loading overall trending gifts...</p></div>
+            </div>
+        </div>
+
+        <!-- Tech Tab -->
+        <div id="tech" class="tab-content">
+            <div class="report-insight" id="tech-insight">
+                <h3>💻 Tech Trend Insight</h3>
+                <p id="tech-insight-text">Loading tech insights...</p>
+            </div>
+            <div class="gifts-grid" id="tech-grid">
+                <div class="loading"><div class="spinner"></div><p>Loading tech gifts...</p></div>
+            </div>
+        </div>
+
+        <!-- Fashion Tab -->
+        <div id="fashion" class="tab-content">
+            <div class="report-insight" id="fashion-insight">
+                <h3>👗 Fashion Trend Insight</h3>
+                <p id="fashion-insight-text">Loading fashion insights...</p>
+            </div>
+            <div class="gifts-grid" id="fashion-grid">
+                <div class="loading"><div class="spinner"></div><p>Loading fashion gifts...</p></div>
+            </div>
+        </div>
+
+        <!-- Sports Tab -->
+        <div id="sports" class="tab-content">
+            <div class="report-insight" id="sports-insight">
+                <h3>⚽ Sports & Fitness Insight</h3>
+                <p id="sports-insight-text">Loading sports insights...</p>
+            </div>
+            <div class="gifts-grid" id="sports-grid">
+                <div class="loading"><div class="spinner"></div><p>Loading sports gifts...</p></div>
+            </div>
+        </div>
+
+        <!-- Under $50 Tab -->
+        <div id="under50" class="tab-content">
+            <div class="report-insight" id="under50-insight">
+                <h3>💰 Best Value Insight</h3>
+                <p id="under50-insight-text">Loading budget insights...</p>
+            </div>
+            <div class="gifts-grid" id="under50-grid">
+                <div class="loading"><div class="spinner"></div><p>Loading under $50 gifts...</p></div>
+            </div>
+        </div>
+
+        <!-- New & Just Launched Tab -->
+        <div id="new" class="tab-content">
+            <div class="report-insight" id="new-insight">
+                <h3>✨ Fresh Drops & New Launches</h3>
+                <p id="new-insight-text">Loading new product insights...</p>
+            </div>
+            <div class="gifts-grid" id="new-grid">
+                <div class="loading"><div class="spinner"></div><p>Loading newly launched gifts...</p></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data structure to hold all reports
+        let allData = {
+            overall: { gifts: [], insight: '' },
+            tech: { gifts: [], insight: '' },
+            fashion: { gifts: [], insight: '' },
+            sports: { gifts: [], insight: '' },
+            under50: { gifts: [], insight: '' },
+            new: { gifts: [], insight: '' }
+        };
+        let currentTab = 'overall';
+        let searchTerm = '';
+        let archiveIndex = null;
+        let currentWeek = 'latest';
+
+        // Load archive index
+        async function loadArchiveIndex() {
+            try {
+                const response = await fetch('data/index.json');
+                if (response.ok) {
+                    archiveIndex = await response.json();
+                    console.log('Archive index loaded:', archiveIndex);
+                    populateWeekSelector();
+                }
+            } catch (error) {
+                console.log('No archive index found, using current data only');
+            }
+        }
+
+        // Populate week selector dropdown
+        function populateWeekSelector() {
+            const selector = document.getElementById('week-select');
+            if (!selector || !archiveIndex) return;
+
+            selector.innerHTML = '<option value="latest">Current Week</option>';
+
+            if (archiveIndex.weeks && archiveIndex.weeks.length > 0) {
+                archiveIndex.weeks.forEach(week => {
+                    const option = document.createElement('option');
+                    option.value = week.date;
+                    option.textContent = week.label || week.date;
+                    selector.appendChild(option);
+                });
+            }
+
+            // Handle week selection
+            selector.addEventListener('change', (e) => {
+                loadWeek(e.target.value);
+            });
+        }
+
+        // Load specific week
+        async function loadWeek(weekId) {
+            currentWeek = weekId;
+            let dataUrl = 'data/gift-trends-latest.json';
+
+            if (weekId !== 'latest' && weekId !== 'current') {
+                dataUrl = `data/archive/week-${weekId}.json`;
+            }
+
+            console.log('Loading week:', weekId, 'from:', dataUrl);
+
+            try {
+                const response = await fetch(dataUrl);
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.reports) {
+                        allData = data.reports;
+                        updateInsights();
+                        renderAllTabs();
+                        updateStats();
+                        updateDateDisplay(weekId);
+                    }
+                } else {
+                    console.error('Failed to load week:', weekId);
+                }
+            } catch (error) {
+                console.error('Error loading week:', error);
+            }
+        }
+
+        // Update date display
+        function updateDateDisplay(weekId) {
+            const dateEl = document.getElementById('current-date');
+            if (weekId === 'latest' || weekId === 'current') {
+                dateEl.textContent = 'Current Week';
+            } else if (archiveIndex && archiveIndex.weeks) {
+                const week = archiveIndex.weeks.find(w => w.date === weekId);
+                dateEl.textContent = week ? week.label : weekId;
+            }
+        }
+
+        // Load data from JSON
+        async function loadData() {
+            try {
+                console.log('Loading data...');
+                await loadArchiveIndex();
+
+                const response = await fetch('data/gift-trends-latest.json');
+                console.log('Response status:', response.status);
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('Data loaded:', data);
+                    // Handle both new format (reports object) and old format
+                    if (data.reports) {
+                        allData = data.reports;
+                        console.log('Using reports format, categories:', Object.keys(allData));
+                    } else if (data.trending_gifts) {
+                        // Legacy format - put in overall
+                        allData.overall = {
+                            gifts: data.trending_gifts,
+                            insight: data.category_insights?.overall || 'Trending gifts this week'
+                        };
+                    }
+                    updateInsights();
+                    renderAllTabs();
+                    updateStats();
+                    console.log('Dashboard rendered successfully');
+                } else {
+                    console.error('Failed to load data:', response.statusText);
+                    showEmptyState();
+                }
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showEmptyState();
+            }
+        }
+
+        function showEmptyState() {
+            const emptyHTML = `
+                <div class="empty-state">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📦</div>
+                    <h3>No data yet</h3>
+                    <p>Waiting for first research run on Monday.</p>
+                </div>
+            `;
+            ['overall', 'tech', 'fashion', 'sports', 'under50', 'new'].forEach(tab => {
+                const el = document.getElementById(`${tab}-grid`);
+                if (el) el.innerHTML = emptyHTML;
+            });
+        }
+
+        function updateInsights() {
+            Object.keys(allData).forEach(key => {
+                const el = document.getElementById(`${key}-insight-text`);
+                if (el && allData[key].insight) {
+                    el.textContent = allData[key].insight;
+                }
+            });
+        }
+
+        function handleImageError(img) {
+            img.style.display = 'none';
+            const placeholder = document.createElement('div');
+            placeholder.className = 'gift-image-error';
+            placeholder.textContent = '🎁';
+            img.parentNode.insertBefore(placeholder, img);
+        }
+
+        function renderGiftCard(gift) {
+            console.log('Rendering gift:', gift.name);
+            const imgUrl = gift.image && gift.image.url ? gift.image.url : '';
+            const imgAlt = gift.image && gift.image.alt ? gift.image.alt : gift.name;
+            const imgHtml = imgUrl 
+                ? `<img src="${imgUrl}" alt="${imgAlt}" class="gift-image" onerror="handleImageError(this)">`
+                : `<div class="gift-image-error">🎁</div>`;
+            
+            const quotesHtml = (gift.what_people_are_saying || [])
+                .map(q => `<div class="quote">${q}</div>`)
+                .join('');
+            
+            return `
+                <div class="gift-card" data-category="${(gift.category || 'other').toLowerCase()}">
+                    ${imgHtml}
+                    <div class="gift-header">
+                        <div class="gift-rank">${gift.rank}</div>
+                        <h3 class="gift-title">${gift.name}</h3>
+                        <div class="gift-meta">
+                            <span class="gift-category ${gift.category?.toLowerCase() || 'other'}">${gift.category || 'Other'}</span>
+                            <span class="gift-price">${gift.price}</span>
+                        </div>
+                    </div>
+                    <div class="gift-body">
+                        <p class="gift-description">${gift.description}</p>
+                        
+                        <div class="gift-trending">
+                            <h4>📈 Why It's Trending</h4>
+                            <p>${gift.trending_summary}</p>
+                        </div>
+                        
+                        <div class="gift-quotes">
+                            <h4>💬 What People Are Saying</h4>
+                            ${quotesHtml}
+                        </div>
+                    </div>
+                    <div class="gift-footer">
+                        <div class="gift-recipient">
+                            <span class="recipient-tag">${gift.target_recipient && gift.target_recipient.relationship ? gift.target_recipient.relationship : 'any'}</span>
+                            <span class="recipient-tag">${gift.target_recipient && gift.target_recipient.gender ? gift.target_recipient.gender : 'any'}</span>
+                            <span class="recipient-tag">${gift.target_recipient && gift.target_recipient.age_range ? gift.target_recipient.age_range : 'any'}</span>
+                        </div>
+                        <div class="gift-links">
+                            ${gift.links && gift.links.amazon ? `<a href="${gift.links.amazon}" target="_blank" class="gift-link amazon">🛒 Amazon</a>` : ''}
+                            ${gift.links && gift.links.brand ? `<a href="${gift.links.brand}" target="_blank" class="gift-link brand">🏪 Brand</a>` : ''}
+                            ${!(gift.links && gift.links.amazon) && !(gift.links && gift.links.brand) && gift.source && gift.source.url ? `<a href="${gift.source.url}" target="_blank" class="gift-link">View →</a>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderTab(tabName) {
+            console.log('Rendering tab:', tabName);
+            const container = document.getElementById(`${tabName}-grid`);
+            if (!container) {
+                console.error('Container not found for tab:', tabName);
+                return;
+            }
+            
+            let gifts = (allData[tabName] && allData[tabName].gifts) ? allData[tabName].gifts : [];
+            console.log(`Found ${gifts.length} gifts for ${tabName}`);
+            
+            // Apply search filter
+            if (searchTerm) {
+                gifts = gifts.filter(g => 
+                    (g.name && g.name.toLowerCase().includes(searchTerm)) ||
+                    (g.description && g.description.toLowerCase().includes(searchTerm)) ||
+                    (g.category && g.category.toLowerCase().includes(searchTerm))
+                );
+            }
+            
+            if (gifts.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">🔍</div>
+                        <h3>No gifts found</h3>
+                        <p>${searchTerm ? 'Try adjusting your search.' : 'Waiting for data...'}</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = gifts.map(renderGiftCard).join('');
+        }
+
+        function renderAllTabs() {
+            ['overall', 'tech', 'fashion', 'sports', 'under50', 'new'].forEach(tab => renderTab(tab));
+        }
+
+        function updateStats() {
+            let allGifts = [];
+            Object.keys(allData).forEach(key => {
+                if (allData[key] && allData[key].gifts) {
+                    allGifts = allGifts.concat(allData[key].gifts);
+                }
+            });
+            const highRelevance = allGifts.filter(g => g.gift_genie_relevance === 'high').length;
+            
+            document.getElementById('stat-total').textContent = allGifts.length;
+            document.getElementById('stat-high').textContent = highRelevance;
+            console.log('Stats updated - Total:', allGifts.length, 'High relevance:', highRelevance);
+        }
+
+        // Tab switching
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                tab.classList.add('active');
+                const tabName = tab.dataset.tab;
+                document.getElementById(tabName).classList.add('active');
+                currentTab = tabName;
+            });
+        });
+
+        // Search functionality
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            searchTerm = e.target.value.toLowerCase();
+            renderAllTabs();
+        });
+
+        // Export to CSV
+        function exportToCSV() {
+            const gifts = (allData[currentTab] && allData[currentTab].gifts) ? allData[currentTab].gifts : [];
+            const headers = ['Rank', 'Name', 'Category', 'Price', 'Description', 'Trending Summary', 'Recipient', 'Source URL'];
+            const rows = gifts.map(g => [
+                g.rank,
+                '"' + (g.name || '') + '"',
+                g.category || '',
+                g.price || '',
+                '"' + (g.description || '').replace(/"/g, '""') + '"',
+                '"' + (g.trending_summary || '').replace(/"/g, '""') + '"',
+                (g.target_recipient && g.target_recipient.relationship ? g.target_recipient.relationship : 'any') + ', ' + (g.target_recipient && g.target_recipient.gender ? g.target_recipient.gender : 'any'),
+                (g.source && g.source.url) ? g.source.url : ''
+            ]);
+            
+            const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'gift-trends-' + currentTab + '-' + new Date().toISOString().split('T')[0] + '.csv';
+            a.click();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

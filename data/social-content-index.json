@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "description": "Social Content Archive Index",
+  "lastUpdated": "2026-02-11",
+  "weeks": [
+    {
+      "date": "2026-02-11",
+      "label": "Feb 11, 2026 - Post-Valentine's Self-Care",
+      "file": "social/week-2026-02-11.json",
+      "theme": "Post-Valentine's Self-Care & Vintage Vibes",
+      "platforms": ["instagram", "twitter_x", "tiktok", "linkedin"]
+    }
+  ],
+  "stats": {
+    "totalWeeks": 1,
+    "platforms": {
+      "instagram": 1,
+      "twitter_x": 1,
+      "tiktok": 1,
+      "linkedin": 1
+    }
+  }
+}

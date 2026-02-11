@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "description": "Gift Trends Archive Index",
+  "lastUpdated": "2026-02-11",
+  "currentWeek": "2026-02-10",
+  "weeks": [
+    {
+      "date": "2026-02-10",
+      "file": "week-2026-02-10.json",
+      "label": "Feb 10-16, 2026",
+      "gifts": 60,
+      "categories": ["overall", "tech", "fashion", "sports", "under50", "new"]
+    }
+  ],
+  "months": [
+    {
+      "date": "2026-02",
+      "label": "February 2026",
+      "weeks": ["2026-02-10"],
+      "file": "month-2026-02.json"
+    }
+  ],
+  "stats": {
+    "totalWeeks": 1,
+    "totalGifts": 60,
+    "dateRange": {
+      "start": "2026-02-10",
+      "end": "2026-02-10"
+    }
+  }
+}

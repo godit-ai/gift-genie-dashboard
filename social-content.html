@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎁 Gift Genie Social Content Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --primary: #8B5CF6;
+            --primary-dark: #7C3AED;
+            --secondary: #F472B6;
+            --accent: #FBBF24;
+            --bg: #FDF4FF;
+            --card-bg: #ffffff;
+            --text: #1F2937;
+            --text-light: #6B7280;
+            --border: #E5E7EB;
+            --instagram: #E4405F;
+            --twitter: #1DA1F2;
+            --tiktok: #000000;
+            --linkedin: #0A66C2;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .week-selector {
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .week-selector label {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .week-selector select {
+            padding: 0.6rem 1rem;
+            border-radius: 0.5rem;
+            border: 2px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.95);
+            color: var(--text);
+            font-size: 0.95rem;
+            cursor: pointer;
+            min-width: 280px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .theme-banner {
+            background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 0 1rem 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .theme-banner h2 {
+            color: #92400E;
+            margin-bottom: 0.5rem;
+        }
+
+        .theme-banner p {
+            color: #92400E;
+            opacity: 0.8;
+        }
+
+        .platforms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .platform-card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .platform-header {
+            padding: 1rem 1.5rem;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .platform-header.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .platform-header.twitter { background: var(--twitter); }
+        .platform-header.tiktok { background: var(--tiktok); }
+        .platform-header.linkedin { background: var(--linkedin); }
+
+        .platform-icon {
+            font-size: 1.5rem;
+        }
+
+        .platform-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .platform-content {
+            padding: 1.5rem;
+        }
+
+        .content-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .caption-box {
+            background: #F3F4F6;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            font-size: 0.95rem;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .hashtags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .hashtag {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .copy-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-size: 0.875rem;
+            margin-top: 0.75rem;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary-dark);
+        }
+
+        .thread-tweet {
+            background: #F3F4F6;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .thread-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: var(--twitter);
+            color: white;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .tiktok-script {
+            background: #F3F4F6;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+
+        .script-line {
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .script-line:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .timestamp {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-bottom: 0.25rem;
+        }
+
+        .visual-direction {
+            font-style: italic;
+            color: var(--text-light);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 4rem;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-light);
+        }
+
+        @media (max-width: 768px) {
+            .platforms-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>🎁 Gift Genie Social Content</h1>
+            <p>Weekly social media content ready to post</p>
+            <div class="week-selector">
+                <label for="week-select">📅 Week:</label>
+                <select id="week-select">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="theme-banner" class="theme-banner" style="display: none;">
+            <h2>📌 This Week's Theme</h2>
+            <p id="theme-text">Loading...</p>
+        </div>
+
+        <div id="platforms-container" class="platforms-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading social content...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let contentData = null;
+        let contentIndex = null;
+
+        // Load content index
+        async function loadContentIndex() {
+            try {
+                const response = await fetch('data/social-content-index.json');
+                if (response.ok) {
+                    contentIndex = await response.json();
+                    populateWeekSelector();
+                    // Load latest content
+                    if (contentIndex.weeks && contentIndex.weeks.length > 0) {
+                        loadWeek(contentIndex.weeks[0].date);
+                    }
+                } else {
+                    showEmptyState();
+                }
+            } catch (error) {
+                console.log('No social content index found');
+                showEmptyState();
+            }
+        }
+
+        // Populate week selector
+        function populateWeekSelector() {
+            const selector = document.getElementById('week-select');
+            if (!selector || !contentIndex) return;
+
+            selector.innerHTML = '';
+
+            if (contentIndex.weeks && contentIndex.weeks.length > 0) {
+                contentIndex.weeks.forEach(week => {
+                    const option = document.createElement('option');
+                    option.value = week.date;
+                    option.textContent = week.label || week.date;
+                    selector.appendChild(option);
+                });
+            } else {
+                selector.innerHTML = '<option value="">No content available</option>';
+            }
+
+            selector.addEventListener('change', (e) => {
+                if (e.target.value) loadWeek(e.target.value);
+            });
+        }
+
+        // Load specific week content
+        async function loadWeek(weekId) {
+            try {
+                const response = await fetch(`data/social/week-${weekId}.json`);
+                if (response.ok) {
+                    contentData = await response.json();
+                    renderContent();
+                } else {
+                    showEmptyState();
+                }
+            } catch (error) {
+                console.error('Error loading content:', error);
+                showEmptyState();
+            }
+        }
+
+        // Render all platform content
+        function renderContent() {
+            if (!contentData || !contentData.platforms) {
+                showEmptyState();
+                return;
+            }
+
+            // Show theme
+            const themeBanner = document.getElementById('theme-banner');
+            const themeText = document.getElementById('theme-text');
+            if (contentData.theme) {
+                themeText.textContent = contentData.theme;
+                themeBanner.style.display = 'block';
+            }
+
+            // Render platforms
+            const container = document.getElementById('platforms-container');
+            const platforms = contentData.platforms;
+
+            let html = '';
+
+            // Instagram
+            if (platforms.instagram) {
+                html += renderInstagram(platforms.instagram);
+            }
+
+            // Twitter/X
+            if (platforms.twitter_x) {
+                html += renderTwitter(platforms.twitter_x);
+            }
+
+            // TikTok
+            if (platforms.tiktok) {
+                html += renderTikTok(platforms.tiktok);
+            }
+
+            // LinkedIn
+            if (platforms.linkedin) {
+                html += renderLinkedIn(platforms.linkedin);
+            }
+
+            container.innerHTML = html;
+        }
+
+        function renderInstagram(data) {
+            const hashtags = data.hashtags ? data.hashtags.map(h => `<span class="hashtag">${h}</span>`).join('') : '';
+            return `
+                <div class="platform-card">
+                    <div class="platform-header instagram">
+                        <span class="platform-icon">📸</span>
+                        <span class="platform-name">Instagram</span>
+                    </div>
+                    <div class="platform-content">
+                        <div class="content-section">
+                            <div class="section-label">Image Concept</div>
+                            <div class="caption-box">${data.image_concept || 'No image concept provided'}</div>
+                        </div>
+                        <div class="content-section">
+                            <div class="section-label">Caption</div>
+                            <div class="caption-box" id="ig-caption">${data.caption || ''}</div>
+                            <button class="copy-btn" onclick="copyToClipboard('ig-caption')">📋 Copy Caption</button>
+                        </div>
+                        <div class="content-section">
+                            <div class="section-label">Hashtags</div>
+                            <div class="hashtags">${hashtags}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderTwitter(data) {
+            if (!data.thread || data.thread.length === 0) return '';
+
+            const tweets = data.thread.map((tweet, i) => `
+                <div class="thread-tweet">
+                    <div class="thread-number">${i + 1}</div>
+                    <div>${tweet.content}</div>
+                </div>
+            `).join('');
+
+            return `
+                <div class="platform-card">
+                    <div class="platform-header twitter">
+                        <span class="platform-icon">🐦</span>
+                        <span class="platform-name">Twitter / X</span>
+                    </div>
+                    <div class="platform-content">
+                        <div class="content-section">
+                            <div class="section-label">Thread</div>
+                            ${tweets}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderTikTok(data) {
+            const scriptLines = data.script ? data.script.map(line => `
+                <div class="script-line">
+                    <div class="timestamp">${line.timestamp}</div>
+                    <div class="visual-direction">Visual: ${line.visual}</div>
+                    <div>Audio: ${line.audio}</div>
+                </div>
+            `).join('') : '';
+
+            return `
+                <div class="platform-card">
+                    <div class="platform-header tiktok">
+                        <span class="platform-icon">🎵</span>
+                        <span class="platform-name">TikTok</span>
+                    </div>
+                    <div class="platform-content">
+                        <div class="content-section">
+                            <div class="section-label">Hook (First 3 seconds)</div>
+                            <div class="caption-box">${data.hook || ''}</div>
+                        </div>
+                        <div class="content-section">
+                            <div class="section-label">Script</div>
+                            <div class="tiktok-script">${scriptLines}</div>
+                        </div>
+                        <div class="content-section">
+                            <div class="section-label">Sound Suggestion</div>
+                            <div>${data.sound_suggestion || ''}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderLinkedIn(data) {
+            return `
+                <div class="platform-card">
+                    <div class="platform-header linkedin">
+                        <span class="platform-icon">💼</span>
+                        <span class="platform-name">LinkedIn</span>
+                    </div>
+                    <div class="platform-content">
+                        <div class="content-section">
+                            <div class="section-label">Post Content</div>
+                            <div class="caption-box" id="li-content">${data.content || ''}</div>
+                            <button class="copy-btn" onclick="copyToClipboard('li-content')">📋 Copy</button>
+                        </div>
+                        ${data.hashtags ? `
+                        <div class="content-section">
+                            <div class="section-label">Hashtags</div>
+                            <div class="hashtags">${data.hashtags.map(h => `<span class="hashtag">${h}</span>`).join('')}</div>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function showEmptyState() {
+            document.getElementById('platforms-container').innerHTML = `
+                <div class="empty-state" style="grid-column: 1 / -1;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📭</div>
+                    <h3>No content yet</h3>
+                    <p>Social content is generated every Wednesday at 10 AM MST.</p>
+                </div>
+            `;
+        }
+
+        function copyToClipboard(elementId) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                navigator.clipboard.writeText(element.textContent).then(() => {
+                    alert('Copied to clipboard!');
+                });
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadContentIndex);
+    </script>
+</body>
+</html>
