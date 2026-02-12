@@ -1,8 +1,24 @@
-# Local config files (contain SSH keys, local paths)
-github-remote-*.txt
-setup-*.sh
+# Local development scripts (not needed for hosting)
+dashboard_server.py
+setup-github-repo.sh
+setup-hosting.sh
 push-to-github.sh
 deploy-to-netlify.sh
+setup.sh
+
+# SSH and local config files (contain local paths, SSH keys)
+github-remote-*.txt
+*.sh
+
+# Internal documentation (not for public)
+GIFT_LIST.md
+SECURITY_AUDIT.md
+all-gifts.html
+
+# Logs
+*.log
+server.log
+npm-debug.log*
 
 # OS files
 .DS_Store
@@ -15,13 +31,10 @@ Thumbs.db
 *.swo
 *~
 
-# Logs
-*.log
-npm-debug.log*
-
 # Temporary files
 *.tmp
 .cache/
 
-# Security audit (contains internal info)
-SECURITY_AUDIT.md
+# Backup/duplicate data files
+data/gift-trends-complete.json
+
