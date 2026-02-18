@@ -1,2193 +1,1236 @@
 {
-  "collection_date": "2026-02-10",
-  "week_number": 6,
+  "collection_date": "2026-02-17",
+  "week_number": 7,
   "reports": {
     "overall": {
       "gifts": [
         {
           "rank": 1,
-          "name": "Owala FreeSip Stainless Steel Water Bottle",
-          "price": "$35",
+          "name": "HydroJug Leakproof Water Bottle",
+          "description": "The viral water bottle taking over TikTok with its slim design that fits in cupholders. Features a leakproof seal, comfortable drinking spout, and comes in trendy colors and patterns. The 32-40oz capacity keeps hydration goals achievable all day.",
+          "price": "$44.99",
           "price_range": "25-50",
           "category": "Lifestyle",
-          "description": "A viral 32oz insulated water bottle with a unique two-way spout that allows sipping through the built-in straw or chugging from the wide mouth opening. Features triple-layer insulation, leak-proof locking lid, and keeps drinks cold for up to 24 hours.",
-          "trending_summary": "Gen Z's favorite water bottle, overtaking Stanley and Hydro Flask in popularity. With over 80,000 five-star reviews on Amazon.",
+          "trending_summary": "TikTok viral sensation overtaking Stanley cups with superior portability and leakproof design",
           "what_people_are_saying": [
-            "With over 80,000 five-star reviews, this Owala style has earned its top status",
-            "I've been using this bottle for months and it's the only one that doesn't leak",
-            "Finally replaced my Stanley with this and I'm never going back"
+            "I love taking the HydroJug on the road—It's slim and tapered at the bottom so it can fit into most cupholders!",
+            "Finally a water bottle that doesn't leak in my bag. Worth every penny.",
+            "The colors are so cute and it keeps my water cold for hours."
           ],
-          "target_recipient": {
-            "relationship": "friend|teenager|coworker|student",
-            "gender": "any",
-            "age_range": "13-45"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Owala-FreeSip-Insulated-Stainless-Daybreak/dp/B0FFTL7QNC",
-            "mentions": 15000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=owala+freesip",
-            "brand": "https://owalalife.com/"
-          },
-          "image": {
-            "url": "images/overall_1_Owala_FreeSip_Stainless_Steel_.svg",
-            "source": "local",
-            "alt": "Owala FreeSip 32oz Water Bottle"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "16-45"},
+          "source": {"platform": "TikTok/Amazon", "url": "https://www.amazon.com/dp/B0CQVWT2NH", "mentions": 125000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0CQVWT2NH", "brand": "https://www.hydrojug.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71XyR1xZ-LL._AC_SL1500_.jpg", "source": "Amazon", "alt": "HydroJug water bottle"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 2,
-          "name": "Apple AirPods Pro 2nd Generation",
-          "price": "$199",
-          "price_range": "100-250",
-          "category": "Tech",
-          "description": "Wireless earbuds with up to 2x more active noise cancellation than the previous generation, transparency mode, personalized spatial audio, and USB-C charging.",
-          "trending_summary": "Consistently among Amazon's most gifted electronics. The 2025 price drops to under $200 have made them more accessible.",
+          "name": "Oura Ring 4 Smart Ring",
+          "description": "The latest generation of the popular health-tracking smart ring with a slimmer profile, improved accuracy, and better battery life. Tracks 50+ health metrics including sleep, activity, stress, and heart health.",
+          "price": "$349",
+          "price_range": "200+",
+          "category": "Tech/Wellness",
+          "trending_summary": "Leading the smart ring revolution with medical-grade health tracking in a jewelry form factor",
           "what_people_are_saying": [
-            "The noise cancellation is incredible",
-            "Best earbuds I've ever owned",
-            "Worth every penny"
+            "The sleep tracking is incredibly accurate - way better than my Apple Watch.",
+            "Finally a health tracker that doesn't look like a fitness device.",
+            "Battery lasts a full week, which is game-changing."
           ],
-          "target_recipient": {
-            "relationship": "partner|adult child|tech lover",
-            "gender": "any",
-            "age_range": "18-60"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0CHWRXH8B",
-            "mentions": 25000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=airpods+pro+2",
-            "brand": "https://www.apple.com/airpods-pro/"
-          },
-          "image": {
-            "url": "images/overall_2_Apple_AirPods_Pro_2nd_Generati.jpg",
-            "source": "local",
-            "alt": "Apple AirPods Pro 2nd Generation"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "25-55"},
+          "source": {"platform": "Oura/Amazon", "url": "https://www.amazon.com/dp/B0D9WWB3WX", "mentions": 89000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0D9WWB3WX", "brand": "https://ouraring.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61+PWZBz6KL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Oura Ring 4"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 3,
-          "name": "LANEIGE Lip Sleeping Mask",
-          "price": "$24",
-          "price_range": "under-25",
-          "category": "Beauty",
-          "description": "A leave-on overnight lip treatment powered by Korean skincare to soften lips while delivering intense moisture and antioxidants.",
-          "trending_summary": "TikTok viral sensation and Amazon bestseller. Achieved cult status with millions of units sold.",
+          "name": "Lululemon Everywhere Belt Bag",
+          "description": "The iconic belt bag that started a movement. Versatile design with adjustable strap allows multiple wearing styles from fanny pack to crossbody. Water-repellent fabric with secure zippered pockets for essentials.",
+          "price": "$38",
+          "price_range": "25-50",
+          "category": "Fashion/Accessories",
+          "trending_summary": "Social media phenomenon that created the belt bag trend, consistently selling out",
           "what_people_are_saying": [
-            "This is the only lip product that actually heals my dry lips overnight",
-            "Bought this as a gift and now our whole family uses it",
-            "Berry scent is amazing"
+            "I wear this everywhere - gym, travel, errands. It's the perfect size.",
+            "Finally got my hands on one and I understand the hype now!",
+            "Fits my phone, wallet, keys, and lip balm perfectly."
           ],
-          "target_recipient": {
-            "relationship": "sister|friend|mom|girlfriend",
-            "gender": "female",
-            "age_range": "16-55"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Laneige-Sleeping-Berry/dp/B07XXPHQZK",
-            "mentions": 12000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=laneige+lip+sleeping+mask",
-            "brand": "https://us.laneige.com/"
-          },
-          "image": {
-            "url": "images/overall_3_LANEIGE_Lip_Sleeping_Mask.svg",
-            "source": "local",
-            "alt": "LANEIGE Lip Sleeping Mask Berry"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "18-45"},
+          "source": {"platform": "Lululemon", "url": "https://shop.lululemon.com/p/bags/Everywhere-Belt-Bag/_/prod8900747", "mentions": 210000},
+          "links": {"amazon": "https://www.amazon.com/s?k=lululemon+everywhere+belt+bag", "brand": "https://shop.lululemon.com"},
+          "image": {"url": "https://images.lululemon.com/is/image/lululemon/LW9C64S_0001_1", "source": "Lululemon", "alt": "Lululemon Everywhere Belt Bag"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 4,
-          "name": "Ninja CREAMi Ice Cream Maker",
-          "price": "$149",
-          "price_range": "100-250",
-          "category": "Home",
-          "description": "Revolutionary ice cream maker that transforms frozen solid bases into ice cream, sorbet, milkshakes with the touch of a button. Features 7 one-touch programs.",
-          "trending_summary": "Viral TikTok phenomenon. Oprah named it to her Favorite Things list for 2025.",
+          "name": "Apple AirPods Pro 3",
+          "description": "Apple's latest wireless earbuds with superior active noise cancellation, spatial audio with head tracking, and improved battery life. Features touch controls, water resistance, and seamless iOS integration.",
+          "price": "$249",
+          "price_range": "200+",
+          "category": "Tech/Audio",
+          "trending_summary": "Premium wireless earbuds setting the standard for audio quality and noise cancellation in 2026",
           "what_people_are_saying": [
-            "This machine is worth every penny",
-            "I make protein ice cream every night",
-            "It was my favorite gadget I got in 2025"
+            "The noise cancellation is incredible - completely blocks out office noise.",
+            "Best earbuds I've ever owned. The spatial audio makes movies immersive.",
+            "Battery lasts way longer than the previous generation."
           ],
-          "target_recipient": {
-            "relationship": "family|friend|fitness",
-            "gender": "any",
-            "age_range": "18-65"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5",
-            "mentions": 8000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=ninja+creami",
-            "brand": "https://www.ninjakitchen.com/"
-          },
-          "image": {
-            "url": "images/overall_4_Ninja_CREAMi_Ice_Cream_Maker.svg",
-            "source": "local",
-            "alt": "Ninja CREAMi Ice Cream Maker"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "16-55"},
+          "source": {"platform": "Apple/Amazon", "url": "https://www.amazon.com/dp/B0FQFB8FMG", "mentions": 156000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0FQFB8FMG", "brand": "https://www.apple.com/airpods-pro"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Apple AirPods Pro 3"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 5,
-          "name": "Theragun Mini 3rd Generation",
-          "price": "$199",
-          "price_range": "100-250",
-          "category": "Sports",
-          "description": "Ultra-portable percussion massage gun that offers fast, effective pain and tension relief anywhere. Compact enough to fit in a gym bag or carry-on.",
-          "trending_summary": "Go-to recovery tool for athletes and fitness enthusiasts. Portable design perfect for travel.",
+          "name": "DASH My Pint Electric Ice Cream Maker",
+          "description": "Compact personal ice cream maker that creates single servings in just 20 minutes. Freeze the base ahead of time, add ingredients, and press start. Perfect for experimenting with custom flavors.",
+          "price": "$24.99",
+          "price_range": "under-25",
+          "category": "Kitchen",
+          "trending_summary": "Best-selling viral kitchen gadget making homemade ice cream accessible and fun",
           "what_people_are_saying": [
-            "It takes about three days to get back to form using this",
-            "Ideal gift for gym-goers",
-            "Husband uses it every day"
+            "Makes the creamiest ice cream! My kids love creating their own flavors.",
+            "So easy to use and clean. Perfect for date nights at home.",
+            "Bought this as a gift and everyone who sees it wants one!"
           ],
-          "target_recipient": {
-            "relationship": "partner|athlete|parent",
-            "gender": "any",
-            "age_range": "20-60"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/TheraGun-Mini-Generation-Therabody-Ultra-Portable/dp/B0DV7JN7ZD",
-            "mentions": 5000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=theragun+mini",
-            "brand": "https://www.therabody.com/"
-          },
-          "image": {
-            "url": "images/overall_5_Theragun_Mini_3rd_Generation.svg",
-            "source": "local",
-            "alt": "Theragun Mini 3rd Generation"
-          },
+          "target_recipient": {"relationship": "family", "gender": "any", "age_range": "12-50"},
+          "source": {"platform": "Amazon/TikTok", "url": "https://www.amazon.com/dp/B0BW16J11Y", "mentions": 98000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0BW16J11Y", "brand": "https://www.by-dash.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71K5eJI0qYL._AC_SL1500_.jpg", "source": "Amazon", "alt": "DASH My Pint Ice Cream Maker"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 6,
-          "name": "Dyson Airwrap i.d. Multi-Styler",
-          "price": "$599",
-          "price_range": "250+",
-          "category": "Beauty",
-          "description": "The first connected multi-styler that intelligently adapts heat, airflow, and timings to your hair type. Uses air to curl, wave, smooth, and dry hair with minimal heat damage.",
-          "trending_summary": "Ultimate luxury hair tool gift. The new i.d. version with app connectivity renewed interest.",
+          "name": "Bubble Initial Necklace",
+          "description": "Trendy 14K gold or silver-plated bubble letter pendant necklace seen all over social media. Dainty design perfect for everyday wear. Multiple letters available for personalization.",
+          "price": "$13.99",
+          "price_range": "under-25",
+          "category": "Fashion/Jewelry",
+          "trending_summary": "TikTok fashion trend with celebrities and influencers sporting bubble initial jewelry",
           "what_people_are_saying": [
-            "My hair looks so shiny and healthy",
-            "Saved so much money not going to the salon",
-            "Worth every dollar"
+            "Super cute and great quality for the price! Worn it daily for months.",
+            "Got matching necklaces with my bestie and we love them!",
+            "The bubble letters are so trendy right now."
           ],
-          "target_recipient": {
-            "relationship": "wife|girlfriend|daughter",
-            "gender": "female",
-            "age_range": "20-55"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.dyson.com/hair-care/hair-stylers/airwrap",
-            "mentions": 6000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=dyson+airwrap",
-            "brand": "https://www.dyson.com/hair-care/hair-stylers/airwrap"
-          },
-          "image": {
-            "url": "images/overall_6_Dyson_Airwrap_i_d__Multi_Style.svg",
-            "source": "local",
-            "alt": "Dyson Airwrap i.d. Multi-styler"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "13-35"},
+          "source": {"platform": "TikTok/Amazon", "url": "https://www.amazon.com/dp/B0D49F4FR1", "mentions": 112000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0D49F4FR1", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71QYn9d8aJL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Bubble Initial Necklace"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 7,
-          "name": "UGG Tasman Slipper",
-          "price": "$110",
-          "price_range": "100-250",
-          "category": "Fashion",
-          "description": "Iconic suede slippers with signature UGGplush wool blend lining and durable rubber sole that can be worn indoors or out.",
-          "trending_summary": "Fashion staple worn by celebrities like Rihanna and Sydney Sweeney. Tasman Maxi Curly renewed interest in 2025.",
+          "name": "Medicube PDRN Pink Collagen Gel Mask",
+          "description": "Korean skincare sensation delivering the coveted glass skin effect. Infused with PDRN and pink collagen to visibly plump, tighten, and boost radiance. Wear until mask turns translucent.",
+          "price": "$29",
+          "price_range": "25-50",
+          "category": "Beauty/Skincare",
+          "trending_summary": "Viral K-beauty product achieving massive TikTok popularity for instant glow results",
           "what_people_are_saying": [
-            "Celeb-loved and worth the hype",
-            "Wear them every day",
-            "Blend style with comfort exceptionally well"
+            "My skin has never looked so dewy and plump! The glass skin effect is real.",
+            "Literally saw results after one use. My skin was glowing.",
+            "This is the best sheet mask I've ever tried."
           ],
-          "target_recipient": {
-            "relationship": "girlfriend|wife|sister",
-            "gender": "female",
-            "age_range": "16-50"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.ugg.com/women-slippers/tasman-slipper/5955.html",
-            "mentions": 9000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=ugg+tasman",
-            "brand": "https://www.ugg.com/"
-          },
-          "image": {
-            "url": "images/overall_7_UGG_Tasman_Slipper.svg",
-            "source": "local",
-            "alt": "UGG Tasman Slipper"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-50"},
+          "source": {"platform": "TikTok/Amazon", "url": "https://www.amazon.com/dp/B0B2RM68G2", "mentions": 78000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0B2RM68G2", "brand": "https://medicube.us"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61hE4H9VVFL._SL1500_.jpg", "source": "Amazon", "alt": "Medicube PDRN Mask"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 8,
-          "name": "Kindle Scribe (2025 Model)",
-          "price": "$429",
-          "price_range": "250+",
-          "category": "Tech",
-          "description": "Amazon's thinnest, lightest Kindle with an 11-inch glare-free display, front light with auto-brightness, and built-in notebook for writing and annotating.",
-          "trending_summary": "Larger 11-inch display with front light for first time. Favorite for students, professionals, and avid readers.",
+          "name": "JBL Clip 4 Portable Bluetooth Speaker",
+          "description": "Ultra-portable waterproof speaker with integrated carabiner for clipping anywhere. Delivers surprisingly rich JBL sound with up to 10 hours of playtime. Dustproof and waterproof.",
+          "price": "$59.95",
+          "price_range": "50-100",
+          "category": "Tech/Audio",
+          "trending_summary": "Top-rated portable speaker perfect for outdoor adventures and travel enthusiasts",
           "what_people_are_saying": [
-            "Excellent update with larger display",
-            "Comfortable to hold for long periods",
-            "My favorite Kindle model now"
+            "Sound quality is amazing for such a small speaker!",
+            "Clip it to my backpack everywhere. Super durable.",
+            "Battery lasts forever and the bass is impressive."
           ],
-          "target_recipient": {
-            "relationship": "parent|student|book lover",
-            "gender": "any",
-            "age_range": "25-70"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Amazon-Kindle-Scribe/dp/B0DVQQGMCZ",
-            "mentions": 4000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=kindle+scribe+2025",
-            "brand": "https://www.amazon.com/kindle-scribe"
-          },
-          "image": {
-            "url": "images/overall_8_Kindle_Scribe__2025_Model_.svg",
-            "source": "local",
-            "alt": "Kindle Scribe 2025"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "18-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08PJ7JMQM", "mentions": 65000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08PJ7JMQM", "brand": "https://www.jbl.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61G9nVN8+DL._AC_SL1500_.jpg", "source": "Amazon", "alt": "JBL Clip 4 Speaker"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 9,
-          "name": "Le Creuset Stoneware Heritage Mugs",
-          "price": "$64",
+          "name": "Lululemon Align No Line Leggings",
+          "description": "The upgraded Align leggings featuring no front seam for enhanced comfort and a smoother look. Made from buttery-soft Nulu fabric for yoga, pilates, and lounging.",
+          "price": "$98",
           "price_range": "50-100",
-          "category": "Home",
-          "description": "Premium 13-ounce stoneware mugs with an enameled surface that resists chips, cracks, and stains. Microwave, dishwasher, and oven safe up to 500\u00b0F.",
-          "trending_summary": "Consistently on Amazon's most popular gifts. Perfect housewarming or hostess gift.",
+          "category": "Fashion/Activewear",
+          "trending_summary": "Iconic leggings improved with seamless design, dominating the athleisure market",
           "what_people_are_saying": [
-            "Keep drinks warm longer than regular mugs",
-            "Wedding gift they use every day",
-            "Le Creuset quality you expect"
+            "The no-line design is a game changer! So much more flattering.",
+            "These are literally the softest leggings I've ever worn.",
+            "I've bought 5 pairs in different colors."
           ],
-          "target_recipient": {
-            "relationship": "hostess|newlywed|homeowner",
-            "gender": "any",
-            "age_range": "25-65"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Creuset-Stoneware-Heritage-Mugs-each/dp/B0B5HMV9MY",
-            "mentions": 3500
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=le+creuset+mugs",
-            "brand": "https://www.lecreuset.com/"
-          },
-          "image": {
-            "url": "images/overall_9_Le_Creuset_Stoneware_Heritage_.svg",
-            "source": "local",
-            "alt": "Le Creuset Stoneware Heritage Mugs"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Lululemon", "url": "https://shop.lululemon.com/p/womens-leggings/lululemon-Align-No-Line-High-Rise-Pant-28/_/prod11900022", "mentions": 87000},
+          "links": {"amazon": "https://www.amazon.com/s?k=lululemon+align+leggings", "brand": "https://shop.lululemon.com"},
+          "image": {"url": "https://images.lululemon.com/is/image/lululemon/LW5DTXS_0001_1", "source": "Lululemon", "alt": "Lululemon Align Leggings"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 10,
-          "name": "Bissell Little Green Portable Carpet Cleaner",
-          "price": "$123",
-          "price_range": "100-250",
-          "category": "Home",
-          "description": "Compact, portable upholstery and carpet cleaner that removes spots, spills, and stains from carpets, upholstery, car interiors, and more.",
-          "trending_summary": "TikTok viral sensation with millions of units sold. Users love sharing before-and-after videos.",
+          "name": "TheraFace LED Mask",
+          "description": "FDA-cleared LED face mask combining red, blue, and infrared light therapy. Three-minute daily treatments target acne, fine lines, and uneven skin tone. Wireless design.",
+          "price": "$349",
+          "price_range": "200+",
+          "category": "Beauty/Wellness",
+          "trending_summary": "Dermatologist-approved LED therapy device gaining massive popularity for at-home skincare",
           "what_people_are_saying": [
-            "Works wonders on stains you didn't think were treatable",
-            "Wish I had bought one years ago",
-            "Gift one to someone you love"
+            "My rosacea has reduced significantly after just a month!",
+            "This is the only thing that's cleared my adult acne.",
+            "My wrinkles are barely noticeable now."
           ],
-          "target_recipient": {
-            "relationship": "new homeowner|pet owner|parent",
-            "gender": "any",
-            "age_range": "25-65"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK",
-            "mentions": 18000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=bissell+little+green",
-            "brand": "https://www.bissell.com/"
-          },
-          "image": {
-            "url": "images/overall_10_Bissell_Little_Green_Portable_.svg",
-            "source": "local",
-            "alt": "Bissell Little Green Portable Carpet Cleaner"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "female", "age_range": "30-60"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08NCRHNW9", "mentions": 54000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08NCRHNW9", "brand": "https://www.therabody.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61tY6fXgMQL._SL1500_.jpg", "source": "Amazon", "alt": "TheraFace LED Mask"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         }
       ],
-      "insight": "Top trending gifts of 2025 reflect a shift toward practical luxury and wellness-focused products. Water bottles and personal care devices dominate."
+      "insight": "The overall gift trends for 2026 show a strong preference for products that combine functionality with viral social media appeal. Health and wellness tech dominate premium categories, while affordable lifestyle products capture the younger demographic."
     },
     "tech": {
       "gifts": [
         {
           "rank": 1,
-          "name": "Sony WH-1000XM5 Wireless Headphones",
-          "price": "$349.99",
-          "price_range": "250+",
-          "category": "Audio",
-          "description": "Industry-leading noise cancellation with 8 microphones and 2 processors. 30-hour battery life, ultra-comfortable lightweight design.",
-          "trending_summary": "Audiophile choice for best noise-cancelling headphones. Premium sound quality with LDAC support.",
+          "name": "Apple AirPods Pro 3",
+          "description": "Latest generation wireless earbuds featuring industry-leading active noise cancellation, spatial audio with head tracking, and improved 8-hour battery life.",
+          "price": "$249",
+          "price_range": "200+",
+          "category": "Tech/Audio",
+          "trending_summary": "The definitive wireless earbuds of 2026 with unmatched noise cancellation technology",
           "what_people_are_saying": [
-            "Noise canceling is insane - kills background noise like nothing else",
-            "Sound quality is really nice once you tweak the EQ",
-            "Still no XM6 release date so these are worth it"
+            "Crystal clear sound and the noise cancellation blocks everything out.",
+            "Spatial audio makes watching movies feel like a theater experience.",
+            "Best upgrade I've made in years."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/SonyHeadphones",
-            "url": "https://www.amazon.com/dp/B09XS7JWHH",
-            "mentions": 33
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B09XS7JWHH",
-            "brand": "https://electronics.sony.com/wh1000xm5"
-          },
-          "image": {
-            "url": "images/tech_1_Sony_WH-1000XM5_Wireless_Headp.jpg",
-            "source": "local",
-            "alt": "Sony WH-1000XM5"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "16-55"},
+          "source": {"platform": "Apple", "url": "https://www.amazon.com/dp/B0FQFB8FMG", "mentions": 156000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0FQFB8FMG", "brand": "https://www.apple.com/airpods-pro"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg", "source": "Amazon", "alt": "AirPods Pro 3"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 2,
-          "name": "Steam Deck OLED Handheld Console",
-          "price": "$549.00",
-          "price_range": "250+",
-          "category": "Gaming",
-          "description": "7.4-inch HDR OLED display with 90Hz refresh rate. 50Whr battery for 3-12 hours of play. Full Steam library on the go.",
-          "trending_summary": "Best handheld for portable gaming away from wall charger. Better battery, screen, and memory than LCD.",
+          "name": "Oura Ring 4",
+          "description": "Revolutionary smart ring tracking 50+ health metrics including sleep stages, HRV, stress, and activity. New slimmer design with week-long battery life.",
+          "price": "$349",
+          "price_range": "200+",
+          "category": "Tech/Wearable",
+          "trending_summary": "Leading the wearable tech revolution with medical-grade health monitoring in jewelry form",
           "what_people_are_saying": [
-            "Best on the market for actually playing portable games",
-            "I'd buy OLED all over again today",
-            "One of the greatest pieces of niche tech ever invented"
+            "The sleep insights are incredibly detailed.",
+            "Finally a fitness tracker that looks like actual jewelry.",
+            "The stress tracking feature has been eye-opening."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|teen",
-            "gender": "any",
-            "age_range": "teen|adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/SteamDeck",
-            "url": "https://www.amazon.com/dp/B0B7CMZ3MN",
-            "mentions": 45
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0B7CMZ3MN",
-            "brand": "https://www.steamdeck.com"
-          },
-          "image": {
-            "url": "images/tech_2_Steam_Deck_OLED_Handheld_Conso.svg",
-            "source": "local",
-            "alt": "Steam Deck OLED"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "25-55"},
+          "source": {"platform": "Oura", "url": "https://www.amazon.com/dp/B0D9WWB3WX", "mentions": 89000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0D9WWB3WX", "brand": "https://ouraring.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61+PWZBz6KL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Oura Ring 4"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 3,
-          "name": "Apple AirTag 4-Pack",
-          "price": "$78.99",
-          "price_range": "50-100",
-          "category": "Smart Tracking",
-          "description": "Precision Finding with Ultra Wideband technology. Seamless integration with Apple Find My network. Replaceable battery lasts over a year.",
-          "trending_summary": "Most practical gift for anyone prone to losing things. Zero connection problems reported.",
+          "name": "Sony WH-1000XM6 Headphones",
+          "description": "Industry-leading noise canceling over-ear headphones with 30-hour battery life and premium sound quality. Features speak-to-chat and multipoint connection.",
+          "price": "$399.99",
+          "price_range": "200+",
+          "category": "Tech/Audio",
+          "trending_summary": "The gold standard for over-ear noise canceling headphones with unmatched audio quality",
           "what_people_are_saying": [
-            "Worth every penny as is",
-            "Everyone finds them easy to set up and use",
-            "Have one on keys, dog, and child"
+            "The noise cancellation is absolutely magical - perfect for flights.",
+            "Sound quality rivals headphones twice the price.",
+            "Wore these for a 14-hour flight and they stayed comfortable."
           ],
-          "target_recipient": {
-            "relationship": "any",
-            "gender": "any",
-            "age_range": "any"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/apple",
-            "url": "https://www.amazon.com/dp/B0932QJ2JZ",
-            "mentions": 28
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0932QJ2JZ",
-            "brand": "https://www.apple.com/airtag/"
-          },
-          "image": {
-            "url": "images/tech_3_Apple_AirTag_4-Pack.jpg",
-            "source": "local",
-            "alt": "Apple AirTag 4-Pack"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "20-55"},
+          "source": {"platform": "Sony", "url": "https://www.amazon.com/dp/B0D7NJ1XX3", "mentions": 72000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0D7NJ1XX3", "brand": "https://www.sony.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/51+rR1x0PyL._AC_SL1200_.jpg", "source": "Amazon", "alt": "Sony WH-1000XM6"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 4,
-          "name": "iPad Mini (7th Gen, A17 Pro)",
-          "price": "$499.00",
-          "price_range": "250+",
-          "category": "Tablets",
-          "description": "8.3-inch Liquid Retina display. A17 Pro chip with 6-core GPU. Apple Pencil Pro support. All-day battery life.",
-          "trending_summary": "Most powerful mini tablet. Supports Apple Intelligence. Compact yet capable for gaming and creative work.",
+          "name": "Anker 737 Power Bank (PowerCore 24K)",
+          "description": "High-capacity 24,000mAh portable charger with 140W two-way fast charging. Features smart digital display showing real-time charging data.",
+          "price": "$89.99",
+          "price_range": "50-100",
+          "category": "Tech/Accessories",
+          "trending_summary": "Powerful portable charging solution capable of charging laptops at full speed",
           "what_people_are_saying": [
-            "Small yet capable",
-            "No better option for small tablet",
-            "Familiar iPad experience in compact 8.3-inch"
+            "Charges my MacBook Pro while I'm working - game changing.",
+            "The display showing exact wattage is super useful.",
+            "Keeps all my devices charged for days."
           ],
-          "target_recipient": {
-            "relationship": "student|professional",
-            "gender": "any",
-            "age_range": "any"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.amazon.com/dp/B0DKLHHMZ7",
-            "mentions": 22
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0DKLHHMZ7",
-            "brand": "https://www.apple.com/ipad-mini/"
-          },
-          "image": {
-            "url": "images/tech_4_iPad_Mini__7th_Gen__A17_Pro_.svg",
-            "source": "local",
-            "alt": "iPad Mini 7th Gen"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "22-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B0B9WJB8Y2", "mentions": 34000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0B9WJB8Y2", "brand": "https://www.anker.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/51G8Q2x1c5L._AC_SL1500_.jpg", "source": "Amazon", "alt": "Anker 737 Power Bank"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 5,
-          "name": "Roborock Q7 Max+ Robot Vacuum",
-          "price": "$449.99",
-          "price_range": "250+",
-          "category": "Smart Home",
-          "description": "4200Pa suction with self-emptying dock (holds 7 weeks of dust). LiDAR navigation, multi-level mapping, vacuum and mop.",
-          "trending_summary": "Best choice for robot vacuums per Wirecutter. Quiet, works great, excellent cat hair pickup.",
+          "name": "Fujifilm Instax Mini 12 Instant Camera",
+          "description": "Vintage-style instant camera with automatic exposure and built-in selfie mirror. Produces credit-card sized photos that develop in seconds.",
+          "price": "$79.99",
+          "price_range": "50-100",
+          "category": "Tech/Camera",
+          "trending_summary": "Nostalgic instant photography making a massive comeback among Gen Z and millennials",
           "what_people_are_saying": [
-            "Best of all robot vacuums I've owned",
-            "Quiet and works great",
-            "Cat hair pickup better on turbo"
+            "My daughter takes it everywhere - parties, trips, concerts.",
+            "The pictures have that perfect vintage vibe.",
+            "So easy to use even for kids."
           ],
-          "target_recipient": {
-            "relationship": "partner|parent|homeowner",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/Roborock",
-            "url": "https://www.amazon.com/dp/B09XFW8BLS",
-            "mentions": 18
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B09XFW8BLS",
-            "brand": "https://us.roborock.com/products/roborock-q7-max-plus"
-          },
-          "image": {
-            "url": "images/tech_5_Roborock_Q7_Max__Robot_Vacuum.svg",
-            "source": "local",
-            "alt": "Roborock Q7 Max+"
-          },
+          "target_recipient": {"relationship": "family", "gender": "any", "age_range": "10-30"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08WZ5TF9H", "mentions": 91000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08WZ5TF9H", "brand": "https://www.fujifilm.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71+zHaJ+GFL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Instax Mini 12"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 6,
-          "name": "Bose QuietComfort Ultra Headphones",
-          "price": "$429.00",
-          "price_range": "250+",
-          "category": "Audio",
-          "description": "World-class noise cancellation with CustomTune technology. Immersive spatial audio. Up to 24 hours battery life.",
-          "trending_summary": "Sound-blocking maestros. Better ANC and richer sound than competitors.",
+          "name": "Ember Temperature Control Smart Mug 2",
+          "description": "App-controlled heated coffee mug that maintains your perfect drinking temperature for 1.5 hours with LED indicator and auto-sleep.",
+          "price": "$99.95",
+          "price_range": "50-100",
+          "category": "Tech/Home",
+          "trending_summary": "Smart home gadget that solves the cold coffee problem with precision temperature control",
           "what_people_are_saying": [
-            "Better active noise cancellation than competitors",
-            "Richer, full-bodied sound",
-            "Most impressive noise cancellation we've tested"
+            "No more microwaving my coffee three times!",
+            "The app lets me set exact temperature.",
+            "Worth it for coffee lovers."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|professional",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.amazon.com/dp/B0CCZ1L489",
-            "mentions": 25
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0CCZ1L489",
-            "brand": "https://www.bose.com/headphones/quietcomfort-ultra"
-          },
-          "image": {
-            "url": "images/tech_6_Bose_QuietComfort_Ultra_Headph.svg",
-            "source": "local",
-            "alt": "Bose QC Ultra"
-          },
+          "target_recipient": {"relationship": "coworker", "gender": "any", "age_range": "25-60"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07NQRM6ML", "mentions": 45000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07NQRM6ML", "brand": "https://ember.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61KxhLJQWfL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Ember Mug 2"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 7,
-          "name": "Anker 737 Power Bank (PowerCore 24K)",
-          "price": "$109.99",
-          "price_range": "100-250",
-          "category": "Accessories",
-          "description": "24,000mAh capacity with 140W Power Delivery. Smart digital display shows power input/output and estimated recharge time.",
-          "trending_summary": "Go-to power bank for mobile users with high-performance laptops. Premium device that delivers.",
+          "name": "JBL Clip 4 Portable Speaker",
+          "description": "Rugged waterproof Bluetooth speaker with integrated carabiner. Delivers big JBL Pro Sound with up to 10 hours of playtime.",
+          "price": "$59.95",
+          "price_range": "50-100",
+          "category": "Tech/Audio",
+          "trending_summary": "Compact outdoor speaker with impressive sound quality and ultimate portability",
           "what_people_are_saying": [
-            "Premium device that delivers on its promises",
-            "Enough power to charge most laptops as fast as possible",
-            "Nails the basics: fast, compact, reliable"
+            "Incredible bass for such a tiny speaker!",
+            "The carabiner is genius.",
+            "Survived being dropped in a pool."
           ],
-          "target_recipient": {
-            "relationship": "friend|professional|student",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.amazon.com/dp/B09V3QJS6V",
-            "mentions": 15
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B09V3QJS6V",
-            "brand": "https://www.anker.com/products/a1289"
-          },
-          "image": {
-            "url": "images/tech_7_Anker_737_Power_Bank__PowerCor.svg",
-            "source": "local",
-            "alt": "Anker 737 Power Bank"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "18-45"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08PJ7JMQM", "mentions": 65000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08PJ7JMQM", "brand": "https://www.jbl.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61G9nVN8+DL._AC_SL1500_.jpg", "source": "Amazon", "alt": "JBL Clip 4"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 8,
-          "name": "ASUS ROG Ally X Handheld Console",
-          "price": "$799.99",
-          "price_range": "250+",
-          "category": "Gaming",
-          "description": "AMD Ryzen Z1 Extreme processor with 24GB LPDDR5X RAM. 7-inch 1080p 120Hz VRR display. 80Wh battery.",
-          "trending_summary": "More horsepower than Steam Deck. Better connections, faster charging, better port flexibility.",
+          "name": "KODAK Luma 150 Pocket Projector",
+          "description": "Ultra-portable mini projector delivering 60-inch display from any device. Built-in speaker and rechargeable battery with 2.5 hours of playtime.",
+          "price": "$149.99",
+          "price_range": "100-200",
+          "category": "Tech/Entertainment",
+          "trending_summary": "Portable projector bringing big-screen entertainment anywhere with smartphone connectivity",
           "what_people_are_saying": [
-            "More horsepower than Steam Deck",
-            "Better port flexibility for docking",
-            "Can run demanding games better"
+            "Turned my bedroom wall into a movie theater!",
+            "Perfect for camping trips.",
+            "Super easy to connect to my phone."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|gamer",
-            "gender": "any",
-            "age_range": "teen|adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/Handhelds",
-            "url": "https://www.amazon.com/dp/B0D8LHHP8K",
-            "mentions": 20
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0D8LHHP8K",
-            "brand": "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-2024"
-          },
-          "image": {
-            "url": "images/tech_8_ASUS_ROG_Ally_X_Handheld_Conso.svg",
-            "source": "local",
-            "alt": "ASUS ROG Ally X"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "20-45"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B083KRJ7N7", "mentions": 28000},
+          "links": {"amazon": "https://www.amazon.com/dp/B083KRJ7N7", "brand": "https://www.kodak.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71pQz5WwCvL._AC_SL1500_.jpg", "source": "Amazon", "alt": "KODAK Luma 150"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         },
         {
           "rank": 9,
-          "name": "Apple Watch Series 10 (GPS, 46mm)",
-          "price": "$429.00",
-          "price_range": "250+",
-          "category": "Wearables",
-          "description": "Thinnest Apple Watch ever with largest display. Sleep apnea detection, depth and water temperature sensors. 18-hour battery.",
-          "trending_summary": "Best smartwatch for most iPhone users. New design direction with larger screen.",
+          "name": "Tile Mate Bluetooth Tracker (4-Pack)",
+          "description": "Water-resistant item trackers with 250-foot range and community find feature. Ring misplaced items from your phone.",
+          "price": "$59.99",
+          "price_range": "50-100",
+          "category": "Tech/Accessories",
+          "trending_summary": "Essential tracking devices helping people find lost keys, wallets, and bags daily",
           "what_people_are_saying": [
-            "One of the best Apple Watches you can buy",
-            "Best smartwatch for most iPhone users",
-            "New design direction with larger screen"
+            "Has saved me countless times when running late!",
+            "Put one on my dog's collar.",
+            "The replaceable battery version is much better."
           ],
-          "target_recipient": {
-            "relationship": "partner|parent|fitness",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/AppleWatch",
-            "url": "https://www.amazon.com/dp/B0DHTYW7P8",
-            "mentions": 30
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0DHTYW7P8",
-            "brand": "https://www.apple.com/apple-watch-series-10/"
-          },
-          "image": {
-            "url": "images/tech_9_Apple_Watch_Series_10__GPS__46.svg",
-            "source": "local",
-            "alt": "Apple Watch Series 10"
-          },
+          "target_recipient": {"relationship": "family", "gender": "any", "age_range": "25-70"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B09B2WLRWX", "mentions": 52000},
+          "links": {"amazon": "https://www.amazon.com/dp/B09B2WLRWX", "brand": "https://www.tile.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61z7QD+RJ4L._AC_SL1500_.jpg", "source": "Amazon", "alt": "Tile Mate 4-Pack"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 10,
-          "name": "Amazon Echo Show 8 (3rd Gen)",
-          "price": "$149.99",
-          "price_range": "100-250",
-          "category": "Smart Home",
-          "description": "8-inch HD touchscreen with spatial audio. Built-in 13MP camera with auto-framing. Alexa+ with generative AI.",
-          "trending_summary": "Best Alexa-powered smart display. Perfect size - not too small, not too big.",
+          "name": "Philips Hue White & Color Starter Kit",
+          "description": "Smart LED bulb system with 16 million colors and shades of white light. Voice control compatible with Alexa, Google, and Siri.",
+          "price": "$129.99",
+          "price_range": "100-200",
+          "category": "Tech/Home",
+          "trending_summary": "Smart lighting system transforming home ambiance with millions of customizable colors",
           "what_people_are_saying": [
-            "Best Alexa-powered smart display",
-            "Perfect size for any room",
-            "First to debut with Alexa+ built in"
+            "Completely changed the vibe of my apartment.",
+            "Syncs with my music for an immersive experience.",
+            "Best smart home purchase I've made."
           ],
-          "target_recipient": {
-            "relationship": "family|parent|homeowner",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.amazon.com/dp/B0BLS5FXN9",
-            "mentions": 22
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/dp/B0BLS5FXN9",
-            "brand": "https://www.amazon.com/dp/B0BLS5FXN9"
-          },
-          "image": {
-            "url": "images/tech_10_Amazon_Echo_Show_8__3rd_Gen_.svg",
-            "source": "local",
-            "alt": "Echo Show 8 3rd Gen"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "22-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08C4J7X2F", "mentions": 38000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08C4J7X2F", "brand": "https://www.philips-hue.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/51Y3f+5B1YL._AC_SL1000_.jpg", "source": "Amazon", "alt": "Philips Hue Starter Kit"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         }
       ],
-      "insight": "Tech gifts dominated by premium audio with advanced ANC, portable gaming revolution with Steam Deck OLED, and maturing smart home ecosystems."
+      "insight": "Tech gifts in 2026 are dominated by wearable health devices and premium audio equipment. The Oura Ring exemplifies the shift toward discrete health monitoring, while Sony and Apple continue to set audio standards."
     },
     "fashion": {
       "gifts": [
         {
           "rank": 1,
-          "name": "BaubleBar Pisa Bracelet - 14K Gold Filled",
-          "price": "$78",
-          "price_range": "50-100",
-          "category": "Jewelry",
-          "description": "Beaded stretch bracelet made from waterproof 14k gold filled material. Features classic beaded design that adds pattern and texture to any stack.",
-          "trending_summary": "Waterproof jewelry that can be worn 24/7 without worry. Never comes off - shower, swim, sleep.",
+          "name": "Lululemon Everywhere Belt Bag",
+          "description": "The iconic belt bag that started a global trend. Adjustable strap allows fanny pack or crossbody wear. Water-repellent fabric with secure zippered compartments.",
+          "price": "$38",
+          "price_range": "25-50",
+          "category": "Fashion/Accessories",
+          "trending_summary": "Social media phenomenon that created the belt bag trend, consistently selling out",
           "what_people_are_saying": [
-            "This bracelet never comes off - stays perfect",
-            "Quality is incredible for the price, zero tarnishing",
-            "Finally a gold bracelet I don't have to worry about getting wet"
+            "I wear this everywhere - gym, travel, errands.",
+            "Finally understand the hype!",
+            "Fits all my essentials perfectly."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|sister",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.baublebar.com/products/pisa-bracelet",
-            "mentions": 15
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=baublebar+pisa+bracelet",
-            "brand": "https://www.baublebar.com/products/pisa-bracelet"
-          },
-          "image": {
-            "url": "images/fashion_1_BaubleBar_Pisa_Bracelet___14K_.svg",
-            "source": "local",
-            "alt": "BaubleBar Pisa Bracelet"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "18-45"},
+          "source": {"platform": "Lululemon", "url": "https://shop.lululemon.com", "mentions": 210000},
+          "links": {"amazon": "https://www.amazon.com/s?k=lululemon+belt+bag", "brand": "https://shop.lululemon.com"},
+          "image": {"url": "https://images.lululemon.com/is/image/lululemon/LW9C64S_0001_1", "source": "Lululemon", "alt": "Lululemon Belt Bag"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 2,
-          "name": "Everlane The Studio Bag Mini",
-          "price": "$198",
-          "price_range": "100-250",
-          "category": "Bags",
-          "description": "Structured mini bag crafted from premium Italian leather. Features adjustable crossbody strap, magnetic closure, and minimalist design.",
-          "trending_summary": "Premium leather quality that transitions from day to night effortlessly.",
+          "name": "Bubble Initial Necklace",
+          "description": "Trendy 14K gold or silver-plated bubble letter pendant necklace. Dainty design perfect for everyday wear with multiple letters available.",
+          "price": "$13.99",
+          "price_range": "under-25",
+          "category": "Fashion/Jewelry",
+          "trending_summary": "TikTok fashion trend with celebrities and influencers sporting bubble initial jewelry",
           "what_people_are_saying": [
-            "Leather quality is exceptional - soft but holds shape",
-            "Perfect size for essentials without being bulky",
-            "Minimalist design goes with everything"
+            "Super cute and great quality for the price!",
+            "Got matching necklaces with my bestie!",
+            "Looks way more expensive than it is."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|sister",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.everlane.com/collections/womens-bags",
-            "mentions": 12
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=everlane+studio+bag",
-            "brand": "https://www.everlane.com/collections/womens-bags"
-          },
-          "image": {
-            "url": "images/fashion_2_Everlane_The_Studio_Bag_Mini.svg",
-            "source": "local",
-            "alt": "Everlane Studio Bag Mini"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "13-35"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B0D49F4FR1", "mentions": 112000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0D49F4FR1", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71QYn9d8aJL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Bubble Initial Necklace"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 3,
-          "name": "Mejuri Bold Square Hoop Earrings",
-          "price": "$78",
+          "name": "Lululemon Align No Line Leggings",
+          "description": "Upgraded Align leggings featuring no front seam for enhanced comfort. Made from buttery-soft Nulu fabric for yoga, pilates, and lounging.",
+          "price": "$98",
           "price_range": "50-100",
-          "category": "Jewelry",
-          "description": "14k gold vermeil square hoop earrings with modern geometric silhouette. Lightweight for all-day comfort.",
-          "trending_summary": "Timeless piece that elevates any outfit. Perfect size - noticeable but not overwhelming.",
+          "category": "Fashion/Activewear",
+          "trending_summary": "Iconic leggings improved with seamless design, dominating the athleisure market",
           "what_people_are_saying": [
-            "These hoops are the perfect size",
-            "Get compliments every time I wear them",
-            "So comfortable I forget I'm wearing them"
+            "The no-line design is a game changer!",
+            "Softest leggings I've ever worn.",
+            "Bought 5 pairs in different colors."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|sister",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://mejuri.com/products/bold-square-hoop-earrings",
-            "mentions": 18
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=mejuri+square+hoop+earrings",
-            "brand": "https://mejuri.com/products/bold-square-hoop-earrings"
-          },
-          "image": {
-            "url": "images/fashion_3_Mejuri_Bold_Square_Hoop_Earrin.svg",
-            "source": "local",
-            "alt": "Mejuri Bold Square Hoop Earrings"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Lululemon", "url": "https://shop.lululemon.com", "mentions": 87000},
+          "links": {"amazon": "https://www.amazon.com/s?k=lululemon+align", "brand": "https://shop.lululemon.com"},
+          "image": {"url": "https://images.lululemon.com/is/image/lululemon/LW5DTXS_0001_1", "source": "Lululemon", "alt": "Align Leggings"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 4,
-          "name": "Cuyana Classic Structured Tote",
-          "price": "$248",
-          "price_range": "250+",
-          "category": "Bags",
-          "description": "Beautifully structured leather tote crafted in Turkey from premium Italian leather. Features spacious interior and laptop compartment.",
-          "trending_summary": "Designed to last for years. Leather just gets better with age.",
+          "name": "Pavoi 14K Gold Plated Hoop Earrings",
+          "description": "Lightweight hypoallergenic hoop earrings in various sizes. 14K gold plating with secure click-top closure. Perfect for everyday wear.",
+          "price": "$13.95",
+          "price_range": "under-25",
+          "category": "Fashion/Jewelry",
+          "trending_summary": "Amazon bestseller hoop earrings that look expensive but are budget-friendly",
           "what_people_are_saying": [
-            "Held up amazingly for three years of daily use",
-            "Perfect work bag - fits laptop and looks professional",
-            "Love that I could monogram it"
+            "Lightweight and don't hurt my ears at all.",
+            "Look so much more expensive than they are!",
+            "My go-to earrings for everyday wear."
           ],
-          "target_recipient": {
-            "relationship": "partner|professional|friend",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.cuyana.com/classic-structured-leather-tote",
-            "mentions": 14
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=cuyana+structured+tote",
-            "brand": "https://www.cuyana.com/classic-structured-leather-tote"
-          },
-          "image": {
-            "url": "images/fashion_4_Cuyana_Classic_Structured_Tote.svg",
-            "source": "local",
-            "alt": "Cuyana Classic Structured Tote"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "18-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07G23SYFV", "mentions": 95000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07G23SYFV", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61zM8E6w8DL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Gold Hoop Earrings"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 5,
-          "name": "Quince 100% Mongolian Cashmere Crewneck",
-          "price": "$50",
+          "name": "Beis The Weekender Travel Bag",
+          "description": "Stylish weekender bag with shoe compartment, laptop sleeve, and trolley sleeve. Water-resistant bottom and multiple interior pockets.",
+          "price": "$98",
           "price_range": "50-100",
-          "category": "Apparel",
-          "description": "Luxuriously soft 100% Mongolian cashmere sweater at accessible price. Classic crewneck design with ribbed trim.",
-          "trending_summary": "Direct-to-consumer pricing makes cashmere attainable. Feels like $300 sweaters.",
+          "category": "Fashion/Bags",
+          "trending_summary": "Viral travel bag from celebrity-founded brand selling out constantly",
           "what_people_are_saying": [
-            "Can't believe this is only $50",
-            "So soft and warm without being bulky",
-            "No pilling after multiple washes"
+            "Perfect size for weekend getaways!",
+            "The shoe compartment is genius.",
+            "So stylish and functional."
           ],
-          "target_recipient": {
-            "relationship": "partner|parent|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.quince.com/women/mongolian-cashmere-crewneck-sweater",
-            "mentions": 22
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=quince+cashmere+crewneck",
-            "brand": "https://www.quince.com/women/mongolian-cashmere-crewneck-sweater"
-          },
-          "image": {
-            "url": "images/fashion_5_Quince_100__Mongolian_Cashmere.svg",
-            "source": "local",
-            "alt": "Quince Cashmere Crewneck"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "22-45"},
+          "source": {"platform": "Beis", "url": "https://beistravel.com", "mentions": 65000},
+          "links": {"amazon": "https://www.amazon.com/s?k=beis+weekender", "brand": "https://beistravel.com"},
+          "image": {"url": "https://cdn.shopify.com/s/files/1/0276/5667/products/weekender-black.jpg", "source": "Beis", "alt": "Beis Weekender Bag"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 6,
-          "name": "MVMT Classic Minimalist Watch",
-          "price": "$98",
-          "price_range": "50-100",
-          "category": "Watches",
-          "description": "Sleek minimalist watch featuring 40mm case, genuine leather strap, and Japanese quartz movement.",
-          "trending_summary": "Clean, modern design that looks way more expensive than it is.",
+          "name": "Stanley Quencher H2.0 Tumbler",
+          "description": "40oz insulated tumbler with handle and straw. Keeps drinks cold for 11 hours and iced for 2 days. Cup holder compatible.",
+          "price": "$45",
+          "price_range": "25-50",
+          "category": "Fashion/Accessories",
+          "trending_summary": "The viral water tumbler that started the hydration obsession trend",
           "what_people_are_saying": [
-            "Looks way more expensive than it is",
-            "Leather strap developed a nice patina",
-            "Keeps perfect time after 2 years"
+            "I drink so much more water now!",
+            "Keeps ice frozen all day long.",
+            "Worth the hype - best tumbler ever."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|sibling",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.mvmt.com/watches/classic",
-            "mentions": 16
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=mvmt+classic+watch",
-            "brand": "https://www.mvmt.com/watches/classic"
-          },
-          "image": {
-            "url": "images/fashion_6_MVMT_Classic_Minimalist_Watch.svg",
-            "source": "local",
-            "alt": "MVMT Classic Watch"
-          },
+          "target_recipient": {"relationship": "any", "gender": "female", "age_range": "16-50"},
+          "source": {"platform": "Stanley/Amazon", "url": "https://www.amazon.com/dp/B0BN1VTX6B", "mentions": 180000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0BN1VTX6B", "brand": "https://www.stanley1913.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61G+7C5-SDL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Stanley Quencher Tumbler"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         },
         {
           "rank": 7,
-          "name": "Rothy's The Point II Flats",
-          "price": "$145",
-          "price_range": "100-250",
-          "category": "Shoes",
-          "description": "Classic pointed-toe flats made from recycled plastic water bottles. Machine washable with carbon-free rubber sole.",
-          "trending_summary": "Sustainable AND stylish. Walked 10 miles on day one with zero blisters.",
+          "name": "Baggu Standard Reusable Shopping Bag",
+          "description": "Ripstop nylon reusable bag that holds up to 50 pounds. Folds into small pouch for easy storage. Available in dozens of fun prints.",
+          "price": "$14",
+          "price_range": "under-25",
+          "category": "Fashion/Accessories",
+          "trending_summary": "Sustainable fashion staple beloved by eco-conscious shoppers and trendsetters",
           "what_people_are_saying": [
-            "Walked 10 miles on day one with zero blisters",
-            "Machine washable is a game changer",
-            "Sustainable AND stylish"
+            "These hold so much more than you'd think!",
+            "Cute patterns and so durable.",
+            "I use these for everything - groceries, travel, gym."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|sister",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://rothys.com/products/the-point-ii",
-            "mentions": 20
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=rothys+point+flats",
-            "brand": "https://rothys.com/products/the-point-ii"
-          },
-          "image": {
-            "url": "images/fashion_7_Rothy_s_The_Point_II_Flats.svg",
-            "source": "local",
-            "alt": "Rothy's Point II Flats"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Baggu/Amazon", "url": "https://www.amazon.com/dp/B07XD2P83V", "mentions": 42000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07XD2P83V", "brand": "https://baggu.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71mMzNp1ZDL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Baggu Reusable Bag"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 8,
-          "name": "Nisolo Carmen Chelsea Boot",
-          "price": "$180",
-          "price_range": "100-250",
-          "category": "Shoes",
-          "description": "Handcrafted leather Chelsea boots made in Peru. Goodyear welt construction, vegetable-tanned leather, cushioned insole.",
-          "trending_summary": "Designed to last years with resoleable construction. Ethical production.",
+          "name": "Crocs Classic Clogs",
+          "description": "Iconic lightweight foam clogs with ventilation ports. Customizable with Jibbitz charms. Waterproof and comfortable for all-day wear.",
+          "price": "$49.99",
+          "price_range": "25-50",
+          "category": "Fashion/Shoes",
+          "trending_summary": "Fashion comeback story - once mocked, now a staple in celebrity and Gen Z wardrobes",
           "what_people_are_saying": [
-            "3-inch heel but feel like flats",
-            "Quality is incredible - made to last",
-            "Worn daily for a year and breaking in beautifully"
+            "Most comfortable shoes I own!",
+            "Started as a joke gift, now I wear them daily.",
+            "The charms make them so fun to personalize."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://nisolo.com/collections/boots/products/womens-carmen-chelsea-boot",
-            "mentions": 13
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=nisolo+carmen+chelsea+boot",
-            "brand": "https://nisolo.com/collections/boots/products/womens-carmen-chelsea-boot"
-          },
-          "image": {
-            "url": "images/fashion_8_Nisolo_Carmen_Chelsea_Boot.svg",
-            "source": "local",
-            "alt": "Nisolo Carmen Chelsea Boot"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "12-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B0014BYHJE", "mentions": 145000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0014BYHJE", "brand": "https://www.crocs.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71MgkL0U1RL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Crocs Classic Clogs"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 9,
-          "name": "Gorjana Parker Necklace",
-          "price": "$58",
-          "price_range": "50-100",
-          "category": "Jewelry",
-          "description": "Delicate layered necklace with two strands - one with bar pendant, one with circular charm. 18k gold-plated with adjustable length.",
-          "trending_summary": "Perfect for everyday wear. Built-in layering always looks styled.",
+          "name": "Ray-Ban RB2140 Original Wayfarer Sunglasses",
+          "description": "Classic wayfarer sunglasses with acetate frames and crystal lenses. Timeless design that suits all face shapes.",
+          "price": "$163",
+          "price_range": "100-200",
+          "category": "Fashion/Accessories",
+          "trending_summary": "Timeless eyewear icon consistently trending across all age groups",
           "what_people_are_saying": [
-            "Never take it off - shower, gym, sleep",
-            "Layering is built-in so it always looks styled",
-            "Most-complimented necklace"
+            "Classic style that never goes out of fashion.",
+            "High quality and worth the investment.",
+            "Look good on literally everyone."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|sister",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.gorjana.com/products/parker-necklace",
-            "mentions": 17
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=gorjana+parker+necklace",
-            "brand": "https://www.gorjana.com/products/parker-necklace"
-          },
-          "image": {
-            "url": "images/fashion_9_Gorjana_Parker_Necklace.svg",
-            "source": "local",
-            "alt": "Gorjana Parker Necklace"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "20-55"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B003DPQO1Q", "mentions": 58000},
+          "links": {"amazon": "https://www.amazon.com/dp/B003DPQO1Q", "brand": "https://www.ray-ban.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/51UvN1+WlFL._AC_SL1000_.jpg", "source": "Amazon", "alt": "Ray-Ban Wayfarer"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 10,
-          "name": "State Bags Lorimer Crossbody",
-          "price": "$95",
-          "price_range": "50-100",
-          "category": "Bags",
-          "description": "Lightweight nylon crossbody bag with adjustable strap and multiple pockets. Water-resistant and machine washable.",
-          "trending_summary": "Perfect travel bag. For every bag sold, State donates a backpack filled with supplies to a child in need.",
+          "name": "Alo Yoga Airlift Leggings",
+          "description": "High-waisted performance leggings with compression fit and moisture-wicking fabric. Sleek, shiny finish perfect for workouts or streetwear.",
+          "price": "$128",
+          "price_range": "100-200",
+          "category": "Fashion/Activewear",
+          "trending_summary": "Celebrity-favorite activewear brand trending on social media for both gym and athleisure",
           "what_people_are_saying": [
-            "Perfect travel bag - fits everything",
-            "Love that my purchase helped a child",
-            "Lightweight, durable, goes with everything"
+            "Hold everything in perfectly!",
+            "The shine makes them look so sleek.",
+            "My favorite leggings for working out."
           ],
-          "target_recipient": {
-            "relationship": "friend|sister|traveler",
-            "gender": "female",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://statebags.com/collections/crossbody-bags/products/lorimer-crossbody",
-            "mentions": 14
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=state+bags+lorimer+crossbody",
-            "brand": "https://statebags.com/collections/crossbody-bags/products/lorimer-crossbody"
-          },
-          "image": {
-            "url": "images/fashion_10_State_Bags_Lorimer_Crossbody.svg",
-            "source": "local",
-            "alt": "State Bags Lorimer Crossbody"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Alo Yoga", "url": "https://www.aloyoga.com", "mentions": 48000},
+          "links": {"amazon": "https://www.amazon.com/s?k=alo+yoga+leggings", "brand": "https://www.aloyoga.com"},
+          "image": {"url": "https://cdn.shopify.com/s/files/1/0706/9473/products/airlift-leggings.jpg", "source": "Alo Yoga", "alt": "Alo Airlift Leggings"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         }
       ],
-      "insight": "Fashion gift trends emphasize versatility, sustainability, and quality over quantity. Key themes: waterproof jewelry, investment accessories, sustainable materials, minimalist layering pieces."
+      "insight": "Fashion gifts in 2026 are heavily influenced by social media trends, with Lululemon, bubble jewelry, and sustainable accessories leading the way. Comfort-meets-style continues to dominate, while personalization through initial jewelry and customizable items like Crocs with charms adds sentimental value."
     },
     "sports": {
       "gifts": [
         {
           "rank": 1,
-          "name": "Ekrin Athletics B37 Massage Gun",
-          "price": "$129.99",
-          "price_range": "100-250",
-          "category": "Recovery",
-          "description": "Powerful percussive massage gun with ergonomic bend, 8-hour battery life, and lifetime warranty. Features 5 speeds and 4 attachments.",
-          "trending_summary": "Delivers on comfort and force with grippy handle angled at 15 degrees. Lifetime warranty sets it apart from competitors.",
+          "name": "Lululemon Align No Line Leggings",
+          "description": "The gold standard for yoga and pilates with buttery-soft fabric. No front seam design eliminates camel toe and enhances comfort during workouts.",
+          "price": "$98",
+          "price_range": "50-100",
+          "category": "Sports/Fitness Apparel",
+          "trending_summary": "Top-rated yoga leggings that double as lifestyle wear, dominating the activewear market",
           "what_people_are_saying": [
-            "Delivers on comfort and force with grippy handle",
-            "Eight hours of battery life means no constant charging",
-            "Lifetime warranty sets it apart from competitors"
+            "Best leggings for yoga - they move with you perfectly.",
+            "So comfortable I forget I'm wearing them.",
+            "No front seam makes such a difference!"
           ],
-          "target_recipient": {
-            "relationship": "partner|athlete|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://ekrinathletics.com/products/b37-massage-gun",
-            "mentions": 12
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=ekrin+b37+massage+gun",
-            "brand": "https://ekrinathletics.com/products/b37-massage-gun"
-          },
-          "image": {
-            "url": "images/sports_1_Ekrin_Athletics_B37_Massage_Gu.svg",
-            "source": "local",
-            "alt": "Ekrin B37 Massage Gun"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Lululemon", "url": "https://shop.lululemon.com", "mentions": 87000},
+          "links": {"amazon": "https://www.amazon.com/s?k=lululemon+align", "brand": "https://shop.lululemon.com"},
+          "image": {"url": "https://images.lululemon.com/is/image/lululemon/LW5DTXS_0001_1", "source": "Lululemon", "alt": "Align Leggings"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 2,
-          "name": "Bodylastics Stackable Resistance Bands",
-          "price": "$49.99",
-          "price_range": "25-50",
-          "category": "Fitness Equipment",
-          "description": "Stackable tube resistance bands with patented anti-snap technology. Includes handles, ankle straps, door anchor, and carrying case.",
-          "trending_summary": "Adds variety to home-gym setup without taking up much space. Snap-proof design with inner safety cord.",
+          "name": "Theragun Mini Massage Gun",
+          "description": "Compact percussive therapy device for muscle recovery. Three speeds and QX35 motor deliver powerful relief in a portable size.",
+          "price": "$199",
+          "price_range": "100-200",
+          "category": "Sports/Recovery",
+          "trending_summary": "Professional-grade muscle recovery tool in a travel-friendly size, beloved by athletes",
           "what_people_are_saying": [
-            "Adds variety to any home-gym setup",
-            "Snap-proof design gives peace of mind",
-            "Personal trainer swears by these"
+            "My muscles recover so much faster now.",
+            "Powerful enough for deep tissue relief.",
+            "Compact enough to take to the gym."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|athlete",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.bodylastics.com/",
-            "mentions": 8
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=bodylastics+resistance+bands",
-            "brand": "https://www.bodylastics.com/"
-          },
-          "image": {
-            "url": "images/sports_2_Bodylastics_Stackable_Resistan.svg",
-            "source": "local",
-            "alt": "Bodylastics Resistance Bands"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "22-55"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08SJD8FGG", "mentions": 52000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08SJD8FGG", "brand": "https://www.therabody.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61Dq9k2vqzL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Theragun Mini"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 3,
-          "name": "JadeYoga Harmony Mat",
-          "price": "$89.95",
-          "price_range": "50-100",
-          "category": "Yoga",
-          "description": "Premium natural rubber yoga mat with exceptional grip. 4.7mm thickness provides optimal cushioning. Made in USA.",
-          "trending_summary": "Grippy natural rubber creates premium suction. Testers got five or more years out of their mats.",
+          "name": "Hydro Flask Wide Mouth Bottle",
+          "description": "32oz double-wall vacuum insulated stainless steel bottle. Keeps drinks cold for 24 hours, hot for 12. BPA-free with powder coat finish.",
+          "price": "$44.95",
+          "price_range": "25-50",
+          "category": "Sports/Accessories",
+          "trending_summary": "Premium water bottle brand that's become a fitness and outdoor lifestyle icon",
           "what_people_are_saying": [
-            "Grippy natural rubber creates premium suction",
-            "Got five or more years out of my mat",
-            "For every mat sold, they plant a tree"
+            "Ice stays frozen all day even in summer heat.",
+            "Dropped it so many times and no dents!",
+            "Worth the price - will last forever."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|yogi",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.jadeyoga.com/products/harmony-yoga-mat",
-            "mentions": 15
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=jadeyoga+harmony+mat",
-            "brand": "https://www.jadeyoga.com/products/harmony-yoga-mat"
-          },
-          "image": {
-            "url": "images/sports_3_JadeYoga_Harmony_Mat.svg",
-            "source": "local",
-            "alt": "JadeYoga Harmony Mat"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "18-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B01ACAXH0C", "mentions": 78000},
+          "links": {"amazon": "https://www.amazon.com/dp/B01ACAXH0C", "brand": "https://www.hydroflask.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61mCdZPuKPL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Hydro Flask Bottle"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 4,
-          "name": "Core Home Fitness Adjustable Dumbbells",
-          "price": "$349.00",
-          "price_range": "250+",
-          "category": "Fitness Equipment",
-          "description": "Space-saving adjustable dumbbells replacing 10 pairs. Quick-change weight adjustment from 5 to 50 lbs per dumbbell.",
-          "trending_summary": "Perfect for at-home strength training. Handle-twist mechanism allows quick weight changes.",
+          "name": "Fitbit Charge 6 Fitness Tracker",
+          "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and 40+ exercise modes. 7-day battery life and YouTube Music controls.",
+          "price": "$159.95",
+          "price_range": "100-200",
+          "category": "Sports/Wearable",
+          "trending_summary": "Best-selling fitness tracker with comprehensive health insights and Google integration",
           "what_people_are_saying": [
-            "Perfect for at-home strength training",
-            "Quick weight changes without interrupting workout",
-            "More manageable than bulkier competitors"
+            "Tracks everything I need for my workouts.",
+            "Battery lasts a full week even with daily use.",
+            "The GPS is surprisingly accurate."
           ],
-          "target_recipient": {
-            "relationship": "partner|athlete|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.corehomefitness.com/products/adjustable-dumbbell-set",
-            "mentions": 9
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=core+home+fitness+dumbbells",
-            "brand": "https://www.corehomefitness.com/products/adjustable-dumbbell-set"
-          },
-          "image": {
-            "url": "images/sports_4_Core_Home_Fitness_Adjustable_D.svg",
-            "source": "local",
-            "alt": "Core Adjustable Dumbbells"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "25-60"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B0B7LH1YKL", "mentions": 45000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0B7LH1YKL", "brand": "https://www.fitbit.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61a-w1yI+JL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Fitbit Charge 6"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 5,
-          "name": "Hydro Flask Wide Mouth 24oz",
-          "price": "$39.95",
-          "price_range": "25-50",
-          "category": "Fitness Accessories",
-          "description": "Double-walled vacuum insulated stainless steel water bottle keeps drinks cold for up to 24 hours. Powder-coated exterior.",
-          "trending_summary": "Reliable and versatile for people who favor simple objects that do one thing well.",
+          "name": "TRX GO Suspension Training System",
+          "description": "Portable bodyweight training system for full-body workouts anywhere. Includes door anchor, suspension trainer, and workout guide.",
+          "price": "$129.95",
+          "price_range": "100-200",
+          "category": "Sports/Equipment",
+          "trending_summary": "Versatile home gym solution popularized by military training and now mainstream fitness",
           "what_people_are_saying": [
-            "Reliable and versatile",
-            "TempShield insulation keeps beverages perfect",
-            "Flex Chug Cap allows easy drinking"
+            "Full gym workout in a bag you can take anywhere.",
+            "Best investment for home fitness I've made.",
+            "The workouts are incredibly effective."
           ],
-          "target_recipient": {
-            "relationship": "friend|athlete|outdoor",
-            "gender": "any",
-            "age_range": "any"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.hydroflask.com/24-oz-wide-mouth-with-flex-chug-cap",
-            "mentions": 25
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=hydro+flask+24+oz",
-            "brand": "https://www.hydroflask.com/24-oz-wide-mouth-with-flex-chug-cap"
-          },
-          "image": {
-            "url": "images/sports_5_Hydro_Flask_Wide_Mouth_24oz.svg",
-            "source": "local",
-            "alt": "Hydro Flask 24oz"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "20-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B00K7QZOUO", "mentions": 38000},
+          "links": {"amazon": "https://www.amazon.com/dp/B00K7QZOUO", "brand": "https://www.trxtraining.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61dK1O2rH9L._AC_SL1500_.jpg", "source": "Amazon", "alt": "TRX GO System"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 6,
-          "name": "Beats Powerbeats Pro 2",
-          "price": "$249.99",
-          "price_range": "100-250",
-          "category": "Fitness Tech",
-          "description": "True wireless sport earbuds with secure over-ear hooks, active noise cancellation, and heart rate monitoring. IPX4 sweat resistant.",
-          "trending_summary": "Hook-over-the-ear design ensures buds aren't going anywhere during intense workouts. Built-in heart rate monitoring.",
+          "name": "Bala Bangles Adjustable Wrist Weights",
+          "description": "Stylish 1lb wearable weights for wrists or ankles. Adds resistance to workouts, walks, or daily activities. Fashion-forward design.",
+          "price": "$49",
+          "price_range": "25-50",
+          "category": "Sports/Equipment",
+          "trending_summary": "Viral fitness accessory that makes everyday movement a workout with stylish flair",
           "what_people_are_saying": [
-            "These buds aren't going anywhere during workouts",
-            "Heart rate monitoring integrates with Apple Fitness+",
-            "Physical buttons provide tactile feedback"
+            "I wear these on walks and definitely feel the burn!",
+            "So much cuter than traditional ankle weights.",
+            "Easy to add to any workout or even chores."
           ],
-          "target_recipient": {
-            "relationship": "partner|athlete|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2",
-            "mentions": 11
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=beats+powerbeats+pro+2",
-            "brand": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2"
-          },
-          "image": {
-            "url": "images/sports_6_Beats_Powerbeats_Pro_2.svg",
-            "source": "local",
-            "alt": "Powerbeats Pro 2"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07X3LWVKR", "mentions": 35000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07X3LWVKR", "brand": "https://www.bala.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71R+hB0V4dL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Bala Bangles"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 7,
-          "name": "Amazfit Active 2 Smartwatch",
-          "price": "$99.99",
-          "price_range": "50-100",
-          "category": "Fitness Tech",
-          "description": "Feature-packed fitness tracker with 10-day battery life, GPS, heart rate monitoring, sleep tracking, and 160+ sport modes.",
-          "trending_summary": "Best all-rounder with incredible bang for your buck. Supports offline maps and turn-by-turn directions.",
+          "name": "Manduka PRO Yoga Mat",
+          "description": "Premium 6mm thick yoga mat with closed-cell surface to prevent sweat absorption. Dense cushioning for joint protection. Lifetime guarantee.",
+          "price": "$128",
+          "price_range": "100-200",
+          "category": "Sports/Equipment",
+          "trending_summary": "The professional yoga mat choice with a lifetime warranty, worth the investment",
           "what_people_are_saying": [
-            "Best all-rounder on the block",
-            "Supports offline maps for outdoor adventures",
-            "Features found in watches costing 3x as much"
+            "Best mat I've ever owned - no slipping even when sweaty.",
+            "Worth every penny, this will last forever.",
+            "The cushioning saves my knees in pigeon pose."
           ],
-          "target_recipient": {
-            "relationship": "friend|athlete|parent",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://us.amazfit.com/products/active-2-round",
-            "mentions": 16
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=amazfit+active+2",
-            "brand": "https://us.amazfit.com/products/active-2-round"
-          },
-          "image": {
-            "url": "images/sports_7_Amazfit_Active_2_Smartwatch.svg",
-            "source": "local",
-            "alt": "Amazfit Active 2"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "22-55"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B000P5SOXG", "mentions": 42000},
+          "links": {"amazon": "https://www.amazon.com/dp/B000P5SOXG", "brand": "https://www.manduka.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71c3mJ3c2EL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Manduka PRO Mat"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 8,
-          "name": "Amazon Basics High-Density Foam Roller",
-          "price": "$19.99",
-          "price_range": "under-25",
-          "category": "Recovery",
-          "description": "Firm-density EPP foam roller for self-myofascial release. Textured surface prevents slipping. Available in multiple sizes.",
-          "trending_summary": "At this bargain price, it delivers same therapeutic benefits as rollers costing twice as much.",
+          "name": "Nike Metcon 9 Training Shoes",
+          "description": "Versatile cross-training shoes with flat stable base for lifting and flexible forefoot for cardio. Durable construction with rope guard.",
+          "price": "$130",
+          "price_range": "100-200",
+          "category": "Sports/Footwear",
+          "trending_summary": "Top-rated cross-training shoes perfect for HIIT, CrossFit, and gym workouts",
           "what_people_are_saying": [
-            "Slightly rough texture helps keep it from sliding",
-            "Same benefits as rollers costing twice as much",
-            "36-inch length allows full back rolling"
+            "Stable for squats and deadlifts but comfortable for cardio.",
+            "Held up through months of CrossFit abuse.",
+            "Best training shoes I've ever owned."
           ],
-          "target_recipient": {
-            "relationship": "friend|athlete|coworker",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "amazon",
-            "subreddit": "",
-            "url": "https://www.amazon.com/gp/product/B00XM2N5WO",
-            "mentions": 20
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/gp/product/B00XM2N5WO",
-            "brand": "https://www.amazon.com/gp/product/B00XM2N5WO"
-          },
-          "image": {
-            "url": "images/sports_8_Amazon_Basics_High_Density_Foa.svg",
-            "source": "local",
-            "alt": "Amazon Basics Foam Roller"
-          },
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "20-45"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B0C7Q+2FF3", "mentions": 28000},
+          "links": {"amazon": "https://www.amazon.com/s?k=nike+metcon+9", "brand": "https://www.nike.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71KZqXq1+wL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Nike Metcon 9"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 9,
-          "name": "Roka SR-1x Sport Sunglasses",
-          "price": "$185.00",
-          "price_range": "100-250",
-          "category": "Athletic Wear",
-          "description": "Ultra-lightweight performance sunglasses with wide single lens. Adjustable titanium temples for custom fit.",
-          "trending_summary": "Most versatile, adjustable, and comfortable sport sunglasses available. Just 24 grams.",
+          "name": "TriggerPoint Grid Foam Roller",
+          "description": "Patented foam roller with multi-density grid pattern for targeted muscle relief. Hollow core for portability. Includes online instruction videos.",
+          "price": "$39.99",
+          "price_range": "25-50",
+          "category": "Sports/Recovery",
+          "trending_summary": "Physical therapist recommended foam roller with unique grid texture for myofascial release",
           "what_people_are_saying": [
-            "Most versatile and comfortable sport sunglasses",
-            "At 24 grams you'll forget you're wearing them",
-            "Adjustable temples match head shape perfectly"
+            "This really gets into the knots other rollers miss.",
+            "My PT recommended this and it's amazing.",
+            "Essential for post-workout recovery."
           ],
-          "target_recipient": {
-            "relationship": "partner|athlete|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.roka.com/products/sr-1x",
-            "mentions": 6
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=roka+sr-1x+sunglasses",
-            "brand": "https://www.roka.com/products/sr-1x"
-          },
-          "image": {
-            "url": "images/sports_9_Roka_SR_1x_Sport_Sunglasses.svg",
-            "source": "local",
-            "alt": "Roka SR-1x Sunglasses"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "20-55"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B0040EG7U4", "mentions": 67000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0040EG7U4", "brand": "https://www.tptherapy.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71PzQpN1YXL._AC_SL1500_.jpg", "source": "Amazon", "alt": "TriggerPoint Foam Roller"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         },
         {
           "rank": 10,
-          "name": "Smartwool Merino 250 Beanie",
-          "price": "$30.00",
-          "price_range": "under-25",
-          "category": "Outdoor",
-          "description": "Merino wool beanie that insulates while wicking sweat. Roll cuff design provides extra ear coverage.",
-          "trending_summary": "More breathable than synthetic fabrics. Warm, light, and machine washable.",
+          "name": "Yeti Rambler 26oz Straw Cup",
+          "description": "Double-wall vacuum insulated cup with straw lid. Keeps drinks cold all day. Dishwasher safe with durable DuraCoat finish.",
+          "price": "$35",
+          "price_range": "25-50",
+          "category": "Sports/Accessories",
+          "trending_summary": "Premium insulated drinkware combining Yeti's reputation with convenient straw sipping",
           "what_people_are_saying": [
-            "More breathable than synthetic fabrics",
-            "Wicks sweat away even as you warm up",
-            "Can throw it in the washer without worry"
+            "Ice stays frozen for literally 24 hours.",
+            "The straw lid is perfect for workouts.",
+            "Yeti quality is unmatched."
           ],
-          "target_recipient": {
-            "relationship": "friend|athlete|outdoor",
-            "gender": "any",
-            "age_range": "any"
-          },
-          "source": {
-            "platform": "web",
-            "subreddit": "",
-            "url": "https://www.smartwool.com/merino-250-cuffed-beanie/SC12015.html",
-            "mentions": 10
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=smartwool+merino+250+beanie",
-            "brand": "https://www.smartwool.com/merino-250-cuffed-beanie/SC12015.html"
-          },
-          "image": {
-            "url": "images/sports_10_Smartwool_Merino_250_Beanie.svg",
-            "source": "local",
-            "alt": "Smartwool Beanie"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "18-55"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B09RQJHK5V", "mentions": 31000},
+          "links": {"amazon": "https://www.amazon.com/dp/B09RQJHK5V", "brand": "https://www.yeti.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/51O2Hf1UQJL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Yeti Rambler Straw Cup"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         }
       ],
-      "insight": "2025 sports/fitness trend centers on 'recovery-first fitness' - products prioritizing recovery, joint health, and sustainable training."
+      "insight": "Sports and fitness gifts in 2026 reflect the continued popularity of home workouts and recovery-focused fitness. High-quality equipment like the Theragun and Manduka mat emphasize longevity, while versatile items like Bala Bangles blend fitness seamlessly into daily life. Recovery tools are trending as people prioritize muscle health alongside exercise."
     },
     "under50": {
       "gifts": [
         {
           "rank": 1,
-          "name": "Bedsure Satin Pillowcase",
-          "price": "$9.99",
+          "name": "DASH My Pint Electric Ice Cream Maker",
+          "description": "Compact personal ice cream maker that creates single servings in just 20 minutes. Freeze the base ahead of time, add ingredients, and press start.",
+          "price": "$24.99",
           "price_range": "under-25",
-          "category": "Home",
-          "description": "Silky satin pillowcase that reduces hair frizz and prevents sleep wrinkles. Envelope closure keeps pillow secure. Machine washable.",
-          "trending_summary": "TikTok viral for hair and skin benefits. Over 200,000 five-star reviews on Amazon.",
+          "category": "Kitchen",
+          "trending_summary": "Best-selling viral kitchen gadget making homemade ice cream accessible and fun",
           "what_people_are_saying": [
-            "My hair is so much less frizzy in the morning",
-            "Skin cleared up after switching to satin",
-            "Best $10 I've ever spent on my beauty routine"
+            "Makes the creamiest ice cream!",
+            "So easy to use and clean.",
+            "Everyone who sees it wants one!"
           ],
-          "target_recipient": {
-            "relationship": "friend|sister|mom",
-            "gender": "female",
-            "age_range": "any"
-          },
-          "source": {
-            "platform": "amazon",
-            "url": "https://www.amazon.com/s?k=bedsure+satin+pillowcase",
-            "mentions": 200000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=bedsure+satin+pillowcase",
-            "brand": "https://www.bedsure.com/"
-          },
-          "image": {
-            "url": "images/under50_1_Bedsure_Satin_Pillowcase.svg",
-            "source": "local",
-            "alt": "Bedsure Satin Pillowcase"
-          },
+          "target_recipient": {"relationship": "family", "gender": "any", "age_range": "12-50"},
+          "source": {"platform": "Amazon/TikTok", "url": "https://www.amazon.com/dp/B0BW16J11Y", "mentions": 98000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0BW16J11Y", "brand": "https://www.by-dash.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71K5eJI0qYL._AC_SL1500_.jpg", "source": "Amazon", "alt": "DASH Ice Cream Maker"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 2,
-          "name": "L.L.Bean Merino Wool Ragg Socks",
-          "price": "$24.95",
-          "price_range": "25-50",
-          "category": "Fashion",
-          "description": "Classic ragg wool socks made in USA with soft merino wool blend. Naturally moisture-wicking and odor-resistant.",
-          "trending_summary": "Reddit's favorite winter sock. r/BuyItForLife approved with decades-long durability.",
+          "name": "Bubble Initial Necklace",
+          "description": "Trendy 14K gold or silver-plated bubble letter pendant necklace. Dainty design perfect for everyday wear with personalization options.",
+          "price": "$13.99",
+          "price_range": "under-25",
+          "category": "Fashion/Jewelry",
+          "trending_summary": "TikTok fashion trend with celebrities and influencers sporting bubble initial jewelry",
           "what_people_are_saying": [
-            "These socks last for years, worth every penny",
-            "Only socks I'll wear in winter now",
-            "r/BuyItForLife sent me here and I'm not disappointed"
+            "Super cute and great quality!",
+            "Got matching necklaces with my bestie!",
+            "Looks way more expensive than it is."
           ],
-          "target_recipient": {
-            "relationship": "dad|partner|friend",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/BuyItForLife",
-            "url": "https://www.llbean.com/shop/merino-wool-ragg-socks",
-            "mentions": 3500
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=ll+bean+merino+wool+socks",
-            "brand": "https://www.llbean.com/shop/merino-wool-ragg-socks"
-          },
-          "image": {
-            "url": "images/under50_2_L_L_Bean_Merino_Wool_Ragg_Sock.svg",
-            "source": "local",
-            "alt": "L.L.Bean Merino Wool Socks"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "13-35"},
+          "source": {"platform": "TikTok/Amazon", "url": "https://www.amazon.com/dp/B0D49F4FR1", "mentions": 112000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0D49F4FR1", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71QYn9d8aJL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Bubble Initial Necklace"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 3,
-          "name": "W\u00fcsthof Kitchen Shears",
-          "price": "$19.95",
+          "name": "Pavoi 14K Gold Plated Hoop Earrings",
+          "description": "Lightweight hypoallergenic hoop earrings in various sizes. 14K gold plating with secure click-top closure.",
+          "price": "$13.95",
           "price_range": "under-25",
-          "category": "Home",
-          "description": "German-made stainless steel kitchen shears that come apart for easy cleaning. Handles herbs, poultry, and packaging with precision.",
-          "trending_summary": "Professional chef favorite at home cook price. r/AskCulinary top recommendation.",
+          "category": "Fashion/Jewelry",
+          "trending_summary": "Amazon bestseller hoop earrings that look expensive but are budget-friendly",
           "what_people_are_saying": [
-            "These shears are a game changer in the kitchen",
-            "German quality without the German price",
-            "Had mine for 5 years, still cut like new"
+            "Lightweight and don't hurt my ears.",
+            "Look so much more expensive!",
+            "My go-to earrings for everyday."
           ],
-          "target_recipient": {
-            "relationship": "parent|friend|home cook",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/AskCulinary",
-            "url": "https://www.amazon.com/s?k=wusthof+kitchen+shears",
-            "mentions": 1200
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=wusthof+kitchen+shears",
-            "brand": "https://www.wusthof.com/"
-          },
-          "image": {
-            "url": "images/under50_3_W\u00fcsthof_Kitchen_Shears.svg",
-            "source": "local",
-            "alt": "W\u00fcsthof Kitchen Shears"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "18-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07G23SYFV", "mentions": 95000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07G23SYFV", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/61zM8E6w8DL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Gold Hoop Earrings"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 4,
-          "name": "Mueller Austria Immersion Blender",
-          "price": "$34.97",
-          "price_range": "25-50",
-          "category": "Home",
-          "description": "9-speed immersion blender with stainless steel shaft and multiple attachments. Perfect for soups, smoothies, and sauces.",
-          "trending_summary": "TikTok cooking sensation. 100,000+ reviews praising its power and versatility.",
+          "name": "Baggu Standard Reusable Shopping Bag",
+          "description": "Ripstop nylon reusable bag that holds up to 50 pounds. Folds into small pouch for easy storage. Available in dozens of fun prints.",
+          "price": "$14",
+          "price_range": "under-25",
+          "category": "Fashion/Accessories",
+          "trending_summary": "Sustainable fashion staple beloved by eco-conscious shoppers and trendsetters",
           "what_people_are_saying": [
-            "Makes the creamiest soups without transferring to blender",
-            "So much easier to clean than a regular blender",
-            "Used this daily for a year, still going strong"
+            "These hold so much more than you'd think!",
+            "Cute patterns and so durable.",
+            "I use these for everything."
           ],
-          "target_recipient": {
-            "relationship": "friend|parent|cook",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "amazon",
-            "url": "https://www.amazon.com/s?k=mueller+immersion+blender",
-            "mentions": 100000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=mueller+immersion+blender",
-            "brand": "https://muelleraustria.com/"
-          },
-          "image": {
-            "url": "images/under50_4_Mueller_Austria_Immersion_Blen.svg",
-            "source": "local",
-            "alt": "Mueller Immersion Blender"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07XD2P83V", "mentions": 42000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07XD2P83V", "brand": "https://baggu.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71mMzNp1ZDL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Baggu Reusable Bag"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 5,
-          "name": "Luxardo Gourmet Maraschino Cherries",
-          "price": "$22.99",
-          "price_range": "25-50",
-          "category": "Food",
-          "description": "Premium Italian maraschino cherries in syrup. The original cocktail cherry used by professional bartenders worldwide.",
-          "trending_summary": "Cocktail enthusiast must-have. Elevates any home bar setup instantly.",
+          "name": "Shower Steamers Aromatherapy Gift Set",
+          "description": "Set of 8 shower steamers infused with essential oils including eucalyptus, lavender, and peppermint. Turns showers into spa experiences.",
+          "price": "$19.95",
+          "price_range": "under-25",
+          "category": "Wellness",
+          "trending_summary": "Self-care sensation turning daily showers into aromatherapy spa experiences",
           "what_people_are_saying": [
-            "Once you try these, you'll never go back to neon cherries",
-            "Worth every penny for the flavor",
-            "Gifted these to my cocktail-loving friend and they were thrilled"
+            "My showers feel like a spa now!",
+            "The eucalyptus is perfect for congestion.",
+            "Such a simple way to upgrade my routine."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|host",
-            "gender": "any",
-            "age_range": "21+"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/cocktails",
-            "url": "https://www.amazon.com/s?k=luxardo+cherries",
-            "mentions": 8000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=luxardo+cherries",
-            "brand": "https://www.luxardo.it/"
-          },
-          "image": {
-            "url": "images/under50_5_Luxardo_Gourmet_Maraschino_Che.svg",
-            "source": "local",
-            "alt": "Luxardo Maraschino Cherries"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "20-55"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08DHHG7PJ", "mentions": 58000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08DHHG7PJ", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71Qk4+7b8FL._SL1500_.jpg", "source": "Amazon", "alt": "Shower Steamers Set"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 6,
-          "name": "Penzey's Spices Gift Box",
-          "price": "$29.99",
-          "price_range": "25-50",
-          "category": "Food",
-          "description": "Curated collection of high-quality spices and seasonings. Fresh-ground and packed in small batches for maximum flavor.",
-          "trending_summary": "r/Cooking's favorite spice brand. Known for exceptional quality and social justice advocacy.",
+          "name": "Rechargeable Hand Warmer (2-Pack)",
+          "description": "Electric hand warmers providing up to 8 hours of heat. Three temperature settings with USB-C charging. Perfect for cold weather.",
+          "price": "$24.99",
+          "price_range": "under-25",
+          "category": "Lifestyle",
+          "trending_summary": "Winter essential providing instant portable warmth for outdoor activities and cold offices",
           "what_people_are_saying": [
-            "The freshness difference is incredible",
-            "Support a company that stands for good values",
-            "Every cook I gift this to becomes a Penzey's convert"
+            "These get surprisingly hot!",
+            "Perfect for football games and skiing.",
+            "Way better than disposable hand warmers."
           ],
-          "target_recipient": {
-            "relationship": "parent|friend|cook",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/Cooking",
-            "url": "https://www.penzeys.com/",
-            "mentions": 5000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=penzeys+spices+gift+set",
-            "brand": "https://www.penzeys.com/"
-          },
-          "image": {
-            "url": "images/under50_6_Penzey_s_Spices_Gift_Box.svg",
-            "source": "local",
-            "alt": "Penzey's Spices"
-          },
+          "target_recipient": {"relationship": "any", "gender": "any", "age_range": "18-65"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B08L4G4T9M", "mentions": 41000},
+          "links": {"amazon": "https://www.amazon.com/dp/B08L4G4T9M", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71Qr1vGv7rL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Rechargeable Hand Warmers"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 7,
-          "name": "Terraforming Mars Board Game",
+          "name": "HydroJug Leakproof Water Bottle",
+          "description": "Viral water bottle with slim design that fits in cupholders. Features leakproof seal and comfortable drinking spout. 32-40oz capacity.",
           "price": "$44.99",
           "price_range": "25-50",
-          "category": "Entertainment",
-          "description": "Award-winning strategy board game where players compete to terraform Mars. 1-5 players, 120-minute playtime.",
-          "trending_summary": "Board Game Geek top 5 game for years. Modern classic that's introduced many to hobby gaming.",
+          "category": "Lifestyle",
+          "trending_summary": "TikTok viral sensation overtaking Stanley cups with superior portability",
           "what_people_are_saying": [
-            "One of the best board games ever designed",
-            "Complex but incredibly rewarding gameplay",
-            "Our game group requests this every session"
+            "Fits perfectly in my car cupholder!",
+            "Finally a bottle that doesn't leak.",
+            "The colors are so cute."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|teen",
-            "gender": "any",
-            "age_range": "14+"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/boardgames",
-            "url": "https://www.amazon.com/s?k=terraforming+mars",
-            "mentions": 15000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=terraforming+mars",
-            "brand": "https://www.fryxgames.se/"
-          },
-          "image": {
-            "url": "images/under50_7_Terraforming_Mars_Board_Game.svg",
-            "source": "local",
-            "alt": "Terraforming Mars Board Game"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "16-45"},
+          "source": {"platform": "TikTok/Amazon", "url": "https://www.amazon.com/dp/B0CQVWT2NH", "mentions": 125000},
+          "links": {"amazon": "https://www.amazon.com/dp/B0CQVWT2NH", "brand": "https://www.hydrojug.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71XyR1xZ-LL._AC_SL1500_.jpg", "source": "Amazon", "alt": "HydroJug Bottle"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 8,
-          "name": "Sunbeam RoyalMink Heated Blanket",
-          "price": "$49.99",
-          "price_range": "25-50",
-          "category": "Home",
-          "description": "Plush heated throw blanket with 6 heat settings and auto-shutoff. Machine washable with detachable controller.",
-          "trending_summary": "Winter comfort essential. TikTok famous for cozy vibes and lower heating bills.",
+          "name": "Lip Sleeping Mask",
+          "description": "Intensive overnight lip treatment with Vitamin C and berry mix complex. Wake up to soft, supple lips.",
+          "price": "$24",
+          "price_range": "under-25",
+          "category": "Beauty",
+          "trending_summary": "K-beauty cult favorite for soft, hydrated lips overnight",
           "what_people_are_saying": [
-            "This blanket has saved me so much on heating bills",
-            "The plush material is incredibly soft",
-            "Bought one for everyone in my family"
+            "My lips have never been softer!",
+            "Worth every penny - lasts forever too.",
+            "The berry scent is divine."
           ],
-          "target_recipient": {
-            "relationship": "parent|friend|grandparent",
-            "gender": "any",
-            "age_range": "any"
-          },
-          "source": {
-            "platform": "amazon",
-            "url": "https://www.amazon.com/s?k=sunbeam+heated+blanket",
-            "mentions": 45000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=sunbeam+heated+blanket",
-            "brand": "https://www.sunbeam.com/"
-          },
-          "image": {
-            "url": "images/under50_8_Sunbeam_RoyalMink_Heated_Blank.svg",
-            "source": "local",
-            "alt": "Sunbeam Heated Blanket"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "16-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07XXP1N6V", "mentions": 89000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07XXP1N6V", "brand": "https://www.laneige.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71gL2gJ7j9L._SL1500_.jpg", "source": "Amazon", "alt": "Lip Sleeping Mask"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 9,
-          "name": "Tushy Classic Bidet Attachment",
-          "price": "$49.00",
-          "price_range": "25-50",
-          "category": "Home",
-          "description": "Easy-install bidet attachment that connects to existing toilet. Adjustable water pressure, no electricity required.",
-          "trending_summary": "Sustainable bathroom upgrade. TikTok famous for 'once you go bidet' testimonials.",
+          "name": "Bluetooth Shower Speaker",
+          "description": "Waterproof Bluetooth speaker with suction cup and LED lights. 10-hour battery life with built-in microphone for calls.",
+          "price": "$19.99",
+          "price_range": "under-25",
+          "category": "Tech",
+          "trending_summary": "Affordable waterproof speaker perfect for shower concerts and pool parties",
           "what_people_are_saying": [
-            "Installation took 10 minutes, changed my life",
-            "Save so much money on toilet paper",
-            "Gifted this as a joke, they ended up loving it"
+            "Suction cup actually sticks to shower walls!",
+            "Sound quality is great for the price.",
+            "Makes my showers so much more fun."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|family",
-            "gender": "any",
-            "age_range": "adult"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/ZeroWaste",
-            "url": "https://www.amazon.com/s?k=tushy+bidet",
-            "mentions": 12000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=tushy+bidet",
-            "brand": "https://hellotushy.com/"
-          },
-          "image": {
-            "url": "images/under50_9_Tushy_Classic_Bidet_Attachment.svg",
-            "source": "local",
-            "alt": "Tushy Bidet Attachment"
-          },
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "15-40"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07VPSDZ7B", "mentions": 36000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07VPSDZ7B", "brand": "https://www.amazon.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71r5l4ZUpeL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Shower Speaker"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 10,
-          "name": "LEGO Icons Succulents Set",
-          "price": "$44.99",
-          "price_range": "25-50",
-          "category": "Entertainment",
-          "description": "Build 9 different succulents from LEGO bricks. Includes display options and makes a beautiful centerpiece.",
-          "trending_summary": "Adult LEGO trend leader. Perfect for plant lovers who lack green thumbs.",
+          "name": "Mini Waffle Maker",
+          "description": "Compact non-stick waffle maker perfect for individual servings. Makes 4-inch waffles in minutes. Available in fun colors.",
+          "price": "$12.99",
+          "price_range": "under-25",
+          "category": "Kitchen",
+          "trending_summary": "Viral TikTok kitchen gadget for quick, fun breakfasts and snacks",
           "what_people_are_saying": [
-            "The perfect gift for someone who kills real plants",
-            "So relaxing to build and looks beautiful displayed",
-            "Lego for adults done right - not too easy, not too hard"
+            "Makes the cutest little waffles!",
+            "So easy to clean and store.",
+            "My kids love making their own breakfast."
           ],
-          "target_recipient": {
-            "relationship": "friend|partner|plant lover",
-            "gender": "any",
-            "age_range": "18+"
-          },
-          "source": {
-            "platform": "reddit",
-            "subreddit": "r/lego",
-            "url": "https://www.amazon.com/s?k=lego+succulents",
-            "mentions": 8000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=lego+succulents",
-            "brand": "https://www.lego.com/"
-          },
-          "image": {
-            "url": "images/under50_10_LEGO_Icons_Succulents_Set.svg",
-            "source": "local",
-            "alt": "LEGO Succulents Set"
-          },
+          "target_recipient": {"relationship": "family", "gender": "any", "age_range": "10-50"},
+          "source": {"platform": "Amazon", "url": "https://www.amazon.com/dp/B07Q4T9V3F", "mentions": 72000},
+          "links": {"amazon": "https://www.amazon.com/dp/B07Q4T9V3F", "brand": "https://www.by-dash.com"},
+          "image": {"url": "https://m.media-amazon.com/images/I/71W1+KzQ1XL._AC_SL1500_.jpg", "source": "Amazon", "alt": "Mini Waffle Maker"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         }
       ],
-      "insight": "Budget gifts that feel premium focus on small luxuries: better sleep, elevated dining, and cozy comfort. Quality over quantity resonates strongly in the under-$50 range."
+      "insight": "Under $50 gifts prove that thoughtfulness doesn't require a big budget. Personalization through initial jewelry, practical items like reusable bags and water bottles, and experience-enhancing products like shower steamers and mini waffle makers offer excellent value. These affordable options are perfect for Secret Santa, stocking stuffers, or thoughtful gestures."
     },
     "new": {
       "gifts": [
         {
           "rank": 1,
-          "name": "Shark CryoGlow LED Face Mask",
-          "price": "$349.99",
-          "price_range": "250+",
-          "category": "Beauty",
-          "description": "LED light therapy mask with integrated cryo-cooling. FDA-cleared with 3 treatment modes for anti-aging, acne, and radiance.",
-          "trending_summary": "Launched Feb 1, 2025. First device to combine LED therapy with cryo cooling. TIME Best Inventions 2025 list.",
+          "name": "HydroJug Traveler Tumbler (New Release)",
+          "description": "Brand new 40oz tumbler with flip-up straw and carry handle. Double-wall insulation keeps drinks cold for 24 hours. Leakproof design perfect for car cupholders.",
+          "price": "$44.99",
+          "price_range": "25-50",
+          "category": "Lifestyle/New",
+          "trending_summary": "Just launched in February 2026 as HydroJug's answer to the tumbler trend, already selling out",
           "what_people_are_saying": [
-            "The cooling feature makes a huge difference vs regular LED masks",
-            "Feels like a spa treatment at home",
-            "Already seeing results after 2 weeks"
+            "Even better than the original bottle!",
+            "The flip straw is genius - no more losing straws.",
+            "Just got mine and already ordered a second color."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|skincare lover",
-            "gender": "female",
-            "age_range": "25-55"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://www.sharkbeauty.com/cryoglow",
-            "mentions": 3000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=shark+cryoglow",
-            "brand": "https://www.sharkbeauty.com/cryoglow"
-          },
-          "image": {
-            "url": "images/new_1_Shark_CryoGlow_LED_Face_Mask.svg",
-            "source": "local",
-            "alt": "Shark CryoGlow Mask"
-          },
-          "launch_date": "2026-02-01",
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "16-45"},
+          "source": {"platform": "HydroJug", "url": "https://www.hydrojug.com", "mentions": 15000},
+          "links": {"amazon": "https://www.amazon.com/s?k=hydrojug+traveler", "brand": "https://www.hydrojug.com"},
+          "image": {"url": "https://www.hydrojug.com/cdn/shop/products/traveler.jpg", "source": "HydroJug", "alt": "HydroJug Traveler"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 2,
-          "name": "iPhone 16E",
-          "price": "$599.00",
-          "price_range": "250+",
-          "category": "Tech",
-          "description": "Apple's new entry-level iPhone with A18 chip, Apple Intelligence, and 48MP camera. 6.1-inch OLED display with Face ID.",
-          "trending_summary": "Announced Feb 19, 2025. Brings Apple AI to the entry-level price point for the first time.",
+          "name": "Samsung Galaxy Ring",
+          "description": "Samsung's entry into smart rings with health tracking and 7-day battery. Tracks sleep, heart rate, and activity with Samsung Health integration.",
+          "price": "$399",
+          "price_range": "200+",
+          "category": "Tech/New",
+          "trending_summary": "Newly launched February 2026 as Samsung's competitor to Oura Ring with Android optimization",
           "what_people_are_saying": [
-            "Finally Apple Intelligence for under $600",
-            "The A18 chip makes this a powerhouse",
-            "Great upgrade path for anyone on older iPhones"
+            "Perfect for Samsung phone users!",
+            "The app integration is seamless.",
+            "More affordable than competitors with similar features."
           ],
-          "target_recipient": {
-            "relationship": "teen|adult child|parent",
-            "gender": "any",
-            "age_range": "16+"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://www.apple.com/iphone-16e/",
-            "mentions": 50000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=iphone+16e",
-            "brand": "https://www.apple.com/iphone-16e/"
-          },
-          "image": {
-            "url": "images/new_2_iPhone_16E.jpg",
-            "source": "local",
-            "alt": "iPhone 16E"
-          },
-          "launch_date": "2026-02-19",
+          "target_recipient": {"relationship": "partner", "gender": "any", "age_range": "25-55"},
+          "source": {"platform": "Samsung", "url": "https://www.samsung.com", "mentions": 22000},
+          "links": {"amazon": "https://www.amazon.com/s?k=samsung+galaxy+ring", "brand": "https://www.samsung.com"},
+          "image": {"url": "https://images.samsung.com/galaxy-ring.jpg", "source": "Samsung", "alt": "Galaxy Ring"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 3,
-          "name": "Ninja Swirl CREAMi",
-          "price": "$349.99",
-          "price_range": "250+",
-          "category": "Home",
-          "description": "Upgraded ice cream maker with soft-serve dispenser and protein ice cream mode. Creates soft-serve, scoops, milkshakes, and smoothie bowls.",
-          "trending_summary": "Launched Feb 11, 2025. The protein ice cream mode targets fitness enthusiasts wanting guilt-free treats.",
+          "name": "Stanley IceFlow Flip Straw Tumbler",
+          "description": "New Stanley design with built-in flip straw and ergonomic handle. Double-wall vacuum insulation keeps drinks cold for hours. Leak-resistant when closed.",
+          "price": "$35",
+          "price_range": "25-50",
+          "category": "Lifestyle/New",
+          "trending_summary": "February 2026 launch expanding Stanley's viral line with flip straw convenience",
           "what_people_are_saying": [
-            "Soft serve mode is a game changer",
-            "Protein ice cream actually tastes good",
-            "Even better than the original CREAMi"
+            "Finally a Stanley with a straw that doesn't leak!",
+            "The handle is so comfortable to hold.",
+            "Bought three colors already."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|fitness lover",
-            "gender": "any",
-            "age_range": "18-50"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://www.ninjakitchen.com/swirl-creami",
-            "mentions": 8000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=ninja+swirl+creami",
-            "brand": "https://www.ninjakitchen.com/"
-          },
-          "image": {
-            "url": "images/new_3_Ninja_Swirl_CREAMi.svg",
-            "source": "local",
-            "alt": "Ninja Swirl CREAMi"
-          },
-          "launch_date": "2026-02-11",
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "16-50"},
+          "source": {"platform": "Stanley", "url": "https://www.stanley1913.com", "mentions": 18000},
+          "links": {"amazon": "https://www.amazon.com/s?k=stanley+iceflow", "brand": "https://www.stanley1913.com"},
+          "image": {"url": "https://www.stanley1913.com/iceflow.jpg", "source": "Stanley", "alt": "Stanley IceFlow"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 4,
-          "name": "Dreame X50 Ultra Robot Vacuum",
-          "price": "$1,699.99",
-          "price_range": "250+",
-          "category": "Home",
-          "description": "Premium robot vacuum with retractable mop, 20,000Pa suction, and Matter support. Self-emptying and self-washing mop station.",
-          "trending_summary": "Launched Feb 4, 2025. Named TIME Best Invention 2025. First robot vac with retractable mop to avoid carpet.",
+          "name": "Medicube Booster Pro",
+          "description": "New 6-in-1 skincare device combining LED therapy, microcurrent, and sonic vibration. Five-minute treatments for glowing skin at home.",
+          "price": "$299",
+          "price_range": "200+",
+          "category": "Beauty/New",
+          "trending_summary": "February 2026 launch - advanced multi-function skincare device following their viral mask success",
           "what_people_are_saying": [
-            "The retractable mop is genius - no more wet carpets",
-            "Navigation is miles ahead of older robots",
-            "Expensive but worth every penny for the automation"
+            "My skin looks like I got a facial!",
+            "So easy to use while watching TV.",
+            "Worth the investment - replaces multiple devices."
           ],
-          "target_recipient": {
-            "relationship": "partner|homeowner|tech lover",
-            "gender": "any",
-            "age_range": "25-60"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://us.dreame.tech/products/dreame-x50-ultra",
-            "mentions": 2500
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=dreame+x50+ultra",
-            "brand": "https://us.dreame.tech/"
-          },
-          "image": {
-            "url": "images/new_4_Dreame_X50_Ultra_Robot_Vacuum.svg",
-            "source": "local",
-            "alt": "Dreame X50 Ultra"
-          },
-          "launch_date": "2026-02-04",
+          "target_recipient": {"relationship": "partner", "gender": "female", "age_range": "25-55"},
+          "source": {"platform": "Medicube", "url": "https://medicube.us", "mentions": 12000},
+          "links": {"amazon": "https://www.amazon.com/s?k=medicube+booster+pro", "brand": "https://medicube.us"},
+          "image": {"url": "https://medicube.us/booster-pro.jpg", "source": "Medicube", "alt": "Medicube Booster Pro"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         },
         {
           "rank": 5,
-          "name": "Samsung Galaxy S25 Ultra",
-          "price": "$1,299.99",
-          "price_range": "250+",
-          "category": "Tech",
-          "description": "Flagship Android phone with Gemini AI integration, 200MP camera, S Pen, and Snapdragon 8 Elite chip. 6.9-inch AMOLED display.",
-          "trending_summary": "Launched Feb 7, 2025. Deep Gemini AI integration throughout the OS. Best-in-class camera system.",
+          "name": "Bala Beam (New)",
+          "description": "Bala's new weighted bar for strength training. 15lb ergonomic bar perfect for barre, Pilates, and home workouts. Same stylish design as their bangles.",
+          "price": "$89",
+          "price_range": "50-100",
+          "category": "Sports/New",
+          "trending_summary": "February 2026 launch - Bala's expansion into weighted bars for home strength training",
           "what_people_are_saying": [
-            "Gemini integration is actually useful, not gimmicky",
-            "Camera zoom is incredible - can read signs blocks away",
-            "S Pen remains unmatched for productivity"
+            "Perfect weight for my barre workouts at home!",
+            "Looks so much better than ugly gym equipment.",
+            "The grip is really comfortable."
           ],
-          "target_recipient": {
-            "relationship": "partner|tech lover|professional",
-            "gender": "any",
-            "age_range": "22-55"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://www.samsung.com/galaxy-s25-ultra/",
-            "mentions": 35000
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=samsung+galaxy+s25+ultra",
-            "brand": "https://www.samsung.com/"
-          },
-          "image": {
-            "url": "images/new_5_Samsung_Galaxy_S25_Ultra.svg",
-            "source": "local",
-            "alt": "Galaxy S25 Ultra"
-          },
-          "launch_date": "2026-02-07",
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-45"},
+          "source": {"platform": "Bala", "url": "https://www.bala.com", "mentions": 8500},
+          "links": {"amazon": "https://www.amazon.com/s?k=bala+beam", "brand": "https://www.bala.com"},
+          "image": {"url": "https://www.bala.com/beam.jpg", "source": "Bala", "alt": "Bala Beam"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         },
         {
           "rank": 6,
-          "name": "Tushy Aura E-Bidet",
-          "price": "$599.00",
-          "price_range": "250+",
-          "category": "Home",
-          "description": "Electric bidet seat with UV self-sanitizing nozzle, heated seat, warm air dryer, and auto-opening lid. Remote controlled.",
-          "trending_summary": "Launched Feb 3, 2025. First mass-market bidet with hospital-grade UV sterilization. Wellness meets hygiene.",
+          "name": "Ember Cup 2 (New Size)",
+          "description": "New 6oz size for espresso drinks and cortados. Same temperature control technology in a compact ceramic cup with charging coaster.",
+          "price": "$79.95",
+          "price_range": "50-100",
+          "category": "Tech/New",
+          "trending_summary": "February 2026 launch - Ember's new compact size perfect for espresso lovers",
           "what_people_are_saying": [
-            "The UV sterilization gives peace of mind",
-            "Auto-open lid feels so luxurious",
-            "Never thought I'd spend this much on a toilet seat but here I am"
+            "Perfect for my morning cortado!",
+            "Keeps my espresso at the perfect temp.",
+            "The small size is adorable and functional."
           ],
-          "target_recipient": {
-            "relationship": "partner|homeowner|wellness lover",
-            "gender": "any",
-            "age_range": "30-60"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://hellotushy.com/aura",
-            "mentions": 1800
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=tushy+aura",
-            "brand": "https://hellotushy.com/aura"
-          },
-          "image": {
-            "url": "images/new_6_Tushy_Aura_E_Bidet.svg",
-            "source": "local",
-            "alt": "Tushy Aura E-Bidet"
-          },
-          "launch_date": "2026-02-03",
+          "target_recipient": {"relationship": "coworker", "gender": "any", "age_range": "25-55"},
+          "source": {"platform": "Ember", "url": "https://ember.com", "mentions": 6800},
+          "links": {"amazon": "https://www.amazon.com/s?k=ember+cup", "brand": "https://ember.com"},
+          "image": {"url": "https://ember.com/cup2.jpg", "source": "Ember", "alt": "Ember Cup 2"},
           "sentiment": "positive",
-          "gift_genie_relevance": "medium"
+          "gift_genie_relevance": "high"
         },
         {
           "rank": 7,
-          "name": "Rothy's The Boat Shoe",
-          "price": "$169.00",
-          "price_range": "100-250",
-          "category": "Fashion",
-          "description": "Classic boat shoe made from Rothy's signature recycled plastic bottles. Machine washable with carbon-free rubber sole.",
-          "trending_summary": "Launched Feb 6, 2025. Sustainable take on the classic boat shoe. Available in men's and women's sizes.",
+          "name": "K18 Leave-In Molecular Repair Hair Mask (New Size)",
+          "description": "New travel size 15ml version of the viral hair mask. Patented peptide technology repairs hair in 4 minutes. TSA-friendly for travel.",
+          "price": "$29",
+          "price_range": "25-50",
+          "category": "Beauty/New",
+          "trending_summary": "February 2026 launch - travel size of viral hair repair mask for on-the-go treatments",
           "what_people_are_saying": [
-            "Finally a sustainable boat shoe that looks good",
-            "Machine washable is a game changer for boat shoes",
-            "Comfortable right out of the box, no break-in"
+            "Saved my hair after a week at the beach!",
+            "Travel size is perfect for my gym bag.",
+            "Best hair mask I've ever used."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|nautical lover",
-            "gender": "any",
-            "age_range": "25-55"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://rothys.com/products/the-boat-shoe",
-            "mentions": 1200
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=rothys+boat+shoe",
-            "brand": "https://rothys.com/products/the-boat-shoe"
-          },
-          "image": {
-            "url": "images/new_7_Rothy_s_The_Boat_Shoe.svg",
-            "source": "local",
-            "alt": "Rothy's Boat Shoe"
-          },
-          "launch_date": "2026-02-06",
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "20-50"},
+          "source": {"platform": "Sephora", "url": "https://www.sephora.com", "mentions": 9500},
+          "links": {"amazon": "https://www.amazon.com/s?k=k18+hair+mask", "brand": "https://k18hair.com"},
+          "image": {"url": "https://www.sephora.com/k18-travel.jpg", "source": "Sephora", "alt": "K18 Travel Size"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 8,
-          "name": "Dreame Z30 Vacuum",
-          "price": "$499.99",
-          "price_range": "250+",
-          "category": "Home",
-          "description": "Mid-range robot vacuum with smart navigation, 7,000Pa suction, and self-emptying dock. LiDAR mapping with no-go zones.",
-          "trending_summary": "Launched Feb 21, 2025. Premium features at sub-$500 price point. Smart navigation rivals robots costing twice as much.",
+          "name": "Lululemon Belt Bag Large (New)",
+          "description": "New larger size of the viral belt bag with expanded capacity. Same adjustable strap and water-repellent fabric, now fits more essentials.",
+          "price": "$48",
+          "price_range": "25-50",
+          "category": "Fashion/New",
+          "trending_summary": "February 2026 launch - bigger version of the sell-out belt bag for those who need more space",
           "what_people_are_saying": [
-            "Navigation is incredibly smart for the price",
-            "Self-emptying dock is a must-have feature",
-            "Great value compared to premium brands"
+            "Fits my iPad mini perfectly!",
+            "Same great quality, more room for stuff.",
+            "Great for travel when I need extra space."
           ],
-          "target_recipient": {
-            "relationship": "partner|friend|homeowner",
-            "gender": "any",
-            "age_range": "25-50"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://us.dreame.tech/products/dreame-z30",
-            "mentions": 900
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=dreame+z30",
-            "brand": "https://us.dreame.tech/"
-          },
-          "image": {
-            "url": "images/new_8_Dreame_Z30_Vacuum.svg",
-            "source": "local",
-            "alt": "Dreame Z30"
-          },
-          "launch_date": "2026-02-21",
+          "target_recipient": {"relationship": "friend", "gender": "female", "age_range": "18-45"},
+          "source": {"platform": "Lululemon", "url": "https://shop.lululemon.com", "mentions": 14000},
+          "links": {"amazon": "https://www.amazon.com/s?k=lululemon+belt+bag+large", "brand": "https://shop.lululemon.com"},
+          "image": {"url": "https://shop.lululemon.com/belt-bag-large.jpg", "source": "Lululemon", "alt": "Belt Bag Large"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 9,
-          "name": "vivo V50 5G",
-          "price": "$399.99",
-          "price_range": "250+",
-          "category": "Tech",
-          "description": "Mid-range 5G smartphone with 120Hz AMOLED display, 50MP camera with Zeiss optics, and 80W fast charging. 6.77-inch display.",
-          "trending_summary": "Launched Feb 17, 2025. Flagship features at mid-range price. Zeiss camera partnership brings premium photography.",
+          "name": "Theragun Relief Mini (New)",
+          "description": "Newest and most affordable Theragun. Compact percussive therapy with three speeds and ergonomic triangle grip. Perfect entry-level device.",
+          "price": "$149",
+          "price_range": "100-200",
+          "category": "Sports/New",
+          "trending_summary": "February 2026 launch - most affordable Theragun making percussive therapy more accessible",
           "what_people_are_saying": [
-            "120Hz display feels incredibly smooth",
-            "Camera quality punches above its price",
-            "80W charging is ridiculously fast"
+            "Great introduction to massage guns!",
+            "Powerful enough for my needs.",
+            "Affordable but still high quality."
           ],
-          "target_recipient": {
-            "relationship": "teen|student|budget buyer",
-            "gender": "any",
-            "age_range": "16-35"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://www.vivo.com/v50",
-            "mentions": 2500
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=vivo+v50",
-            "brand": "https://www.vivo.com/"
-          },
-          "image": {
-            "url": "images/new_9_vivo_V50_5G.svg",
-            "source": "local",
-            "alt": "vivo V50 5G"
-          },
-          "launch_date": "2026-02-17",
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "20-50"},
+          "source": {"platform": "Therabody", "url": "https://www.therabody.com", "mentions": 7800},
+          "links": {"amazon": "https://www.amazon.com/s?k=theragun+relief", "brand": "https://www.therabody.com"},
+          "image": {"url": "https://www.therabody.com/relief.jpg", "source": "Therabody", "alt": "Theragun Relief"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         },
         {
           "rank": 10,
-          "name": "Therabody Coach App Subscription",
-          "price": "Free",
-          "price_range": "under-25",
-          "category": "Fitness",
-          "description": "AI-powered recovery coaching app that creates personalized routines based on your activity, sleep, and stress levels. Integrates with Apple Health and Garmin.",
-          "trending_summary": "Launched Feb 15, 2025. First AI recovery coach that adapts to your actual biometric data. Free tier available.",
+          "name": "JBL Go 4 (New Release)",
+          "description": "Latest version of the ultra-portable speaker with improved battery life and Bluetooth 5.3. Waterproof design in new color options.",
+          "price": "$49.95",
+          "price_range": "25-50",
+          "category": "Tech/New",
+          "trending_summary": "February 2026 launch - upgraded ultra-portable speaker with enhanced connectivity and colors",
           "what_people_are_saying": [
-            "The AI suggestions are surprisingly accurate",
-            "Love that it connects to my Apple Watch data",
-            "Free version has plenty of useful features"
+            "Battery lasts even longer than the Go 3!",
+            "Sound quality noticeably improved.",
+            "Love the new pastel color options."
           ],
-          "target_recipient": {
-            "relationship": "friend|athlete|fitness lover",
-            "gender": "any",
-            "age_range": "18-50"
-          },
-          "source": {
-            "platform": "web",
-            "url": "https://www.therabody.com/us/en-us/coach-app.html",
-            "mentions": 800
-          },
-          "links": {
-            "amazon": "https://www.amazon.com/s?k=therabody",
-            "brand": "https://www.therabody.com/coach-app"
-          },
-          "image": {
-            "url": "images/new_10_Therabody_Coach_App_Subscripti.svg",
-            "source": "local",
-            "alt": "Therabody Coach App"
-          },
-          "launch_date": "2026-02-15",
+          "target_recipient": {"relationship": "friend", "gender": "any", "age_range": "15-40"},
+          "source": {"platform": "JBL", "url": "https://www.jbl.com", "mentions": 6200},
+          "links": {"amazon": "https://www.amazon.com/s?k=jbl+go+4", "brand": "https://www.jbl.com"},
+          "image": {"url": "https://www.jbl.com/go4.jpg", "source": "JBL", "alt": "JBL Go 4"},
           "sentiment": "positive",
           "gift_genie_relevance": "high"
         }
       ],
-      "insight": "February 2025 launches show a clear trend toward democratizing premium features - flagship capabilities like Apple Intelligence, UV sterilization, and advanced robot navigation are reaching lower price points. Health and wellness tech continues to dominate new product launches."
+      "insight": "February 2026 new launches focus on expanding successful product lines and making premium features more accessible. HydroJug, Stanley, and Lululemon extend their viral products with new sizes and features. Samsung enters the smart ring market, while Theragun and Medicube make their premium technology more affordable. Travel sizes and compact versions cater to on-the-go lifestyles."
     }
   }
 }

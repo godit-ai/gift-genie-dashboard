@@ -82,33 +82,39 @@
     </div>
 
     <script>
+        // LOGIN TEMPORARILY DISABLED - Auto-redirect to dashboard
+        // To re-enable login, uncomment the code below and remove the redirect
+        
         // SHA-256 hash of your password
         // Use https://passwordsgenerator.net/sha256-hash-generator/ to hash your password
         // Default: 'gifttrends2026'
-        const CORRECT_HASH = '45487de8db8657f74fd55d83a81256d4443a3ba4f858ea9f7c105bbcd4c0857f';
+        // const CORRECT_HASH = '45487de8db8657f74fd55d83a81256d4443a3ba4f858ea9f7c105bbcd4c0857f';
         
-        async function sha256(message) {
-            const msgBuffer = new TextEncoder().encode(message);
-            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-            const hashArray = Array.from(new Uint8Array(hashBuffer));
-            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-        }
+        // async function sha256(message) {
+        //     const msgBuffer = new TextEncoder().encode(message);
+        //     const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        //     const hashArray = Array.from(new Uint8Array(hashBuffer));
+        //     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        // }
         
-        async function checkPassword() {
-            const input = document.getElementById('password').value;
-            const hashed = await sha256(input);
-            
-            if (hashed === CORRECT_HASH) {
-                sessionStorage.setItem('authenticated', 'true');
-                window.location.href = 'gift-trends.html';
-            } else {
-                document.getElementById('error').style.display = 'block';
-            }
-        }
+        // async function checkPassword() {
+        //     const input = document.getElementById('password').value;
+        //     const hashed = await sha256(input);
+        //     
+        //     if (hashed === CORRECT_HASH) {
+        //         sessionStorage.setItem('authenticated', 'true');
+        //         window.location.href = 'gift-trends.html';
+        //     } else {
+        //         document.getElementById('error').style.display = 'block';
+        //     }
+        // }
         
-        document.getElementById('password').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') checkPassword();
-        });
+        // document.getElementById('password').addEventListener('keypress', function(e) {
+        //     if (e.key === 'Enter') checkPassword();
+        // });
+        
+        // AUTO-REDIRECT (Remove this line to re-enable login)
+        window.location.href = 'gift-trends.html';
     </script>
 </body>
 </html>
